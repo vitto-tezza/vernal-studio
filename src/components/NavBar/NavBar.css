@@ -1,0 +1,16 @@
+.container-NavBar {
+  display: flex;
+  flex-direction: row;
+}
+.img-menu {
+  width: 7vw;
+  margin: 8vw;
+}
+.logo {
+  width: 60vw;
+}
+.logo-vernal {
+  width: 25vw;
+  margin-left: 15vw;
+  margin-top: 7vw;
+}
