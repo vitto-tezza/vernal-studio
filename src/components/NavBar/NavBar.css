@@ -1,11 +1,11 @@
 .container-NavBar {
   display: flex;
-  flex-direction: row;
+  /* border: 2px solid red; */
 }
-.container-NavBar.isActive {
+/* .container-NavBar.isActive {
   position: fixed;
   background-color: black;
-}
+} */
 .img-menu {
   width: 7vw;
   margin: 8vw;
@@ -13,20 +13,31 @@
 .menu {
   display: flex;
   flex-flow: column nowrap;
+  z-index: 500;
 }
 .menu-nav {
   width: 100vw;
-  display: none;
+  height: 100%;
+  display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
-.menu-nav.isActive {
-  display: flex;
-  background-color: black;
+.Desplegable.isActive {
+  margin-left: 0;
 }
+
+.Logo-Container {
+  width: 100%;
+  height: 25vw;
+  border: 2px solid white;
+}
+
 .menu-ul {
   flex-direction: column;
+  border: 2px solid red;
+  width: 95%;
+  height: 60vw;
 }
 .logo {
   width: 60vw;
@@ -35,4 +46,15 @@
   width: 25vw;
   margin-left: 15vw;
   margin-top: 7vw;
+}
+
+.Desplegable {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: #000;
+  z-index: 5;
+  position: fixed;
+  margin-left: -100%;
+  transition: 1s;
 }

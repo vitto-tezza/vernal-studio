@@ -1,0 +1,23 @@
+.BannerUp {
+  height: 60vw;
+  background-color: #8c32ff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.BannerUp-Slider {
+  width: 100%;
+  display: flex;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.BannerUp-Slider-Image {
+  width: 5vw;
+  height: 5vw;
+}
+
+.BannerUp-Slider-Text {
+  margin: 0;
+  height: auto;
+}
