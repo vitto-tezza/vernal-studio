@@ -36,8 +36,9 @@
 .menu-ul {
   flex-direction: column;
   border: 2px solid red;
-  width: 95%;
+  width: 85%;
   height: 60vw;
+  padding: 0;
 }
 .logo {
   width: 60vw;

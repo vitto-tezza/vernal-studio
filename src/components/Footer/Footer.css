@@ -111,3 +111,9 @@
   background-repeat: no-repeat;
   background-position: 3% center;
 }
+
+@media screen and (min-width: 769px) {
+  .Footer {
+    background-color: aqua;
+  }
+}
