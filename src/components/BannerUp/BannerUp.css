@@ -18,41 +18,43 @@
 }
 
 .BannerUp-Slider {
-  width: 230vw;
+  width: 280vw;
 
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  /* animation-name: BannerUpSlider; */
-  /* animation-duration: 5s;
+  animation-name: BannerUpSlider;
+  animation-duration: 9s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear; */
+  animation-timing-function: linear;
+  will-change: margin-left;
 }
 
-/* @keyframes BannerUpSlider {
+@keyframes BannerUpSlider {
   0% {
     margin-left: 0;
   }
   100% {
-    margin-left: -150vw;
+    margin-left: -130vw;
   }
-} */
+}
 
 .BannerUp-Slider-Image {
-  width: 7vw;
-  height: 7vw;
+  width: 5vw;
+  height: 5vw;
   margin: 0 5vw;
 }
 
 .BannerUp-Slider-Text {
-  width: 100px;
+  width: 50vw;
   margin: 0;
   color: #fff;
-  font-size: 2.9vw;
+  font-size: 4.7vw;
   height: 10vw;
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: auto;
 }
 
 .BannerUp-Button-Container {
