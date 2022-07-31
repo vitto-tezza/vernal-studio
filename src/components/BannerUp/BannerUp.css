@@ -3,21 +3,81 @@
   background-color: #8c32ff;
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.BannerUp-Slider-Container {
+  width: 100vw;
+  height: 16vw;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  overflow: hidden;
+  margin-top: 7vw;
+  display: flex;
+  align-items: center;
 }
 
 .BannerUp-Slider {
-  width: 100%;
+  width: 230vw;
+
   display: flex;
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  align-items: center;
+  justify-content: space-evenly;
+  /* animation-name: BannerUpSlider; */
+  /* animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; */
 }
 
+/* @keyframes BannerUpSlider {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -150vw;
+  }
+} */
+
 .BannerUp-Slider-Image {
-  width: 5vw;
-  height: 5vw;
+  width: 7vw;
+  height: 7vw;
+  margin: 0 5vw;
 }
 
 .BannerUp-Slider-Text {
+  width: 100px;
   margin: 0;
-  height: auto;
+  color: #fff;
+  font-size: 2.9vw;
+  height: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BannerUp-Button-Container {
+  display: flex;
+  justify-content: center;
+  padding: 4vw;
+  width: 100%;
+}
+
+.BannerUp-Button {
+  width: 18vw;
+  height: 18vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BannerUp-Button-Image {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 200px;
+  background-color: #000;
+  background-image: url(../../utils/images/bannerup-arrow.svg);
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: center 47%;
 }
