@@ -21,7 +21,7 @@ function NavBar() {
       </div>
       <div className={`Desplegable ${menu ? "isActive" : ""}`}>
         <div className="menu-nav">
-          {/* LOGO  FALTA         */}
+          {/* LOGO  FALTA         */}logo
           <div className="Logo-Container"></div>
           <ul className="menu-ul">
             {/* BOTON IDIOMAS FALTA */}idiomas
