@@ -24,7 +24,7 @@ function NavBar() {
           {/* LOGO  FALTA         */}
           <div className="Logo-Container"></div>
           <ul className="menu-ul">
-            {/* BOTON IDIOMAS FALTA */}
+            {/* BOTON IDIOMAS FALTA */}idiomas
             <li className="menu-li">
               <a href="#" className="menu-a">
                 Proyectos
