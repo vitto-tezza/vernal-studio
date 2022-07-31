@@ -2,9 +2,31 @@
   display: flex;
   flex-direction: row;
 }
+.container-NavBar.isActive {
+  position: fixed;
+  background-color: black;
+}
 .img-menu {
   width: 7vw;
   margin: 8vw;
+}
+.menu {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.menu-nav {
+  width: 100vw;
+  display: none;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.menu-nav.isActive {
+  display: flex;
+  background-color: black;
+}
+.menu-ul {
+  flex-direction: column;
 }
 .logo {
   width: 60vw;

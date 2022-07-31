@@ -1,12 +1,9 @@
 import React from "react";
-import "../../pages/HomePage.css";
+import "./Projects.css";
 
 const Projects = () => {
   return (
     <div>
-      <div>
-        <img className="grupo69" src="grupo69.png"></img>
-      </div>
       <div className="container-black">
         <div>
           <p className="txt-3">
@@ -20,7 +17,10 @@ const Projects = () => {
           <div>
             <img className="img-loop3" src="loop3.png"></img>
             <img className="txt-loop3" src="loop3-txt.png"></img>
-            <img className="flecha-pie-de-foto" src="flecha-loop3.png"></img>
+            <img
+              className="flecha-pie-de-foto"
+              src="flecha-pie-de-foto.png"
+            ></img>
           </div>
           <div>
             <p className="txt-5">Loop3</p>
@@ -31,7 +31,10 @@ const Projects = () => {
           <div>
             <img className="img-maderoTango" src="maderoTango.png"></img>
             <img className="txt-maderoTango" src="maderoTango-txt.png"></img>
-            <img className="flecha-pie-de-foto" src="flecha-loop3.png"></img>
+            <img
+              className="flecha-pie-de-foto"
+              src="flecha-pie-de-foto.png"
+            ></img>
           </div>
           <div>
             <p className="txt-7">Madero Tango</p>
