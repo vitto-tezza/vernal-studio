@@ -90,7 +90,7 @@
 
 .Background-Circle {
   position: absolute;
-  border-radius: 200px;
+  border-radius: 500px;
 }
 
 .Circle-1 {
@@ -107,4 +107,108 @@
   height: 20vw;
   top: 53vw;
   right: 20%;
+}
+
+@media screen and (min-width: 767px) {
+  .AboutUs-Container {
+    width: 80%;
+  }
+
+  .AboutUs-Subcontainer {
+    margin: 3vw 0;
+  }
+
+  .AboutUs-Subcontainer-Area {
+    font-size: 8vw;
+  }
+
+  .AboutUs-Subcontainer-Image {
+    height: 70vw;
+  }
+
+  .AboutUs-Subcontainer:hover {
+    padding-bottom: 70vw;
+  }
+
+  .Circle-1 {
+    top: 65vw;
+  }
+
+  .Circle-2 {
+    top: 45vw;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .AboutUs {
+    padding: 7vw 0 9vw;
+  }
+
+  .AboutUs-Text {
+    width: 75%;
+  }
+
+  .AboutUs-Text-Title {
+    font-size: 1.9vw;
+    margin-bottom: 1vw;
+  }
+
+  .AboutUs-Text-Subtitle.Mobile {
+    display: none;
+  }
+
+  .AboutUs-Text-Subtitle.Desktop {
+    display: block;
+  }
+
+  .AboutUs-Text-Subtitle {
+    font-size: 1.38vw;
+    margin: 1vw 0 3vw;
+  }
+
+  .AboutUs-Container {
+    position: relative;
+    width: 75%;
+  }
+
+  .AboutUs-Subcontainer {
+    width: 28vw;
+    margin: 1vw 0;
+    position: static;
+    align-items: flex-start;
+  }
+
+  .AboutUs-Subcontainer-Area {
+    font-size: 3vw;
+    width: 100%;
+  }
+
+  .AboutUs-Subcontainer-Area-Checkbox {
+    width: 1vw;
+    height: 1vw;
+  }
+
+  .AboutUs-Subcontainer-Image {
+    width: 40vw;
+    height: 30vw;
+    left: 45%;
+    top: 1vw;
+  }
+
+  .AboutUs-Subcontainer:hover {
+    padding-bottom: 0vw;
+  }
+
+  .Circle-1 {
+    top: 24vw;
+    width: 30vw;
+    height: 30vw;
+    left: 45%;
+  }
+
+  .Circle-2 {
+    top: 10vw;
+    width: 8vw;
+    height: 8vw;
+  }
 }

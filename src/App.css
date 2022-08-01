@@ -24,4 +24,7 @@ html {
   .Desktop {
     display: flex;
   }
+  .Mobile {
+    display: none;
+  }
 }
