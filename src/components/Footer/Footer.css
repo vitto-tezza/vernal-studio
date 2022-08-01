@@ -27,16 +27,16 @@
 }
 
 .Footer-Subcontainer-1 {
-  padding-right: 6vw;
+  padding-right: 5%;
   border-right: 1px solid #fff;
 }
 
 .Footer-Subcontainer-2 {
-  padding-left: 6vw;
+  padding-left: 5%;
 }
 
 .Footer-Logo {
-  width: 33vw;
+  width: 100%;
   margin-bottom: 2.5vw;
 }
 
@@ -77,25 +77,26 @@
   margin: 0;
   border-radius: 100px;
   background-size: 10vw;
+  background-color: #8c32ff;
 }
 
 .Ig {
   background-image: url(../../utils/images/footer-ig.svg);
-  background-size: 90%;
+  background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .Be {
   background-image: url(../../utils/images/footer-behance.svg);
-  background-size: 90%;
+  background-size: 60%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .In {
   background-image: url(../../utils/images/footer-in.svg);
-  background-size: 90%;
+  background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -112,8 +113,56 @@
   background-position: 3% center;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1199px) {
   .Footer {
-    background-color: aqua;
+    height: 20vw;
+  }
+
+  .Footer-Container {
+    width: 40%;
+    height: 9.2vw;
+  }
+
+  .Footer-Subcontainer-1 {
+    padding-right: 7%;
+  }
+
+  .Footer-Subcontainer-2 {
+    padding-left: 7%;
+  }
+
+  .Footer-Logo {
+    margin-bottom: 2vw;
+  }
+
+  .Footer-Menu {
+    font-size: 1.25vw;
+    margin-top: 0.2vw;
+  }
+
+  .Footer-Text {
+    font-size: 1vw;
+    text-align: start;
+  }
+
+  .Media-Container {
+    width: 9vw;
+    margin: 0.8vw 0;
+  }
+
+  .Media-Links {
+    width: 2.5vw;
+    height: 2.3vw;
+  }
+
+  .Media-Links-Image {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0.15vw solid #8c32ff;
+  }
+
+  .Phone-Number {
+    padding-left: 2.7vw;
+    font-size: 1.2vw;
+    background-size: 1.3vw;
   }
 }

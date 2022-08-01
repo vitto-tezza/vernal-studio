@@ -9,10 +9,10 @@ const Footer = () => {
         <div className="Footer-Subcontainer Footer-Subcontainer-1">
           <img src={footerLogo} alt="Vernal-Logo" className="Footer-Logo"></img>
           {/* ACÁ IRÍA "LINK" */}
-          <a href="#proyectos" className="Footer-Menu">
+          <a href="#Projects" className="Footer-Menu">
             PROYECTOS
           </a>
-          <a href="#contacto" className="Footer-Menu">
+          <a href="#Contact" className="Footer-Menu">
             CONTACTO
           </a>
         </div>

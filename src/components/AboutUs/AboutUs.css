@@ -1,0 +1,214 @@
+.AboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 10vw 0;
+}
+
+.AboutUs-Text {
+  width: 90%;
+}
+
+.AboutUs-Text-Title {
+  color: #65e0b1;
+  font-size: 6vw;
+  margin: 0 0 4vw;
+}
+
+.AboutUs-Text-Subtitle {
+  font-size: 4.2vw;
+  line-height: 110%;
+  margin: 4vw 0;
+}
+
+.AboutUs-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.AboutUs-Subcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vw 0;
+  padding-bottom: 0;
+  position: relative;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.AboutUs-Subcontainer-Area {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 9vw;
+  transition: 0.5s;
+}
+
+.AboutUs-Subcontainer-Area-Checkbox {
+  width: 2vw;
+  height: 2vw;
+  border: 2px solid #aaa;
+  border-radius: 200px;
+}
+
+.AboutUs-Subcontainer-Image {
+  width: 100%;
+  height: 90vw;
+  opacity: 0;
+  background-image: url(../../utils/images/aboutus-web-design.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 12vw;
+
+  transition: 0.5s cubic-bezier(1, 0, 1, 1);
+}
+
+.AboutUs-Subcontainer:hover {
+  padding-bottom: 90vw;
+}
+
+.AboutUs-Subcontainer:hover .AboutUs-Subcontainer-Area {
+  color: #8c32ff;
+}
+
+.AboutUs-Subcontainer:hover .AboutUs-Subcontainer-Area-Checkbox {
+  border: 2px solid #65e0b1;
+  background-color: #65e0b1;
+}
+
+.AboutUs-Subcontainer:hover .AboutUs-Subcontainer-Image {
+  opacity: 1;
+}
+
+.Background-Circle {
+  position: absolute;
+  border-radius: 500px;
+}
+
+.Circle-1 {
+  background-color: #dfd2ff;
+  width: 60vw;
+  height: 60vw;
+  top: 90vw;
+  left: -5%;
+}
+
+.Circle-2 {
+  background-color: rgba(167, 103, 255, 0.6);
+  width: 20vw;
+  height: 20vw;
+  top: 53vw;
+  right: 20%;
+}
+
+@media screen and (min-width: 767px) {
+  .AboutUs-Container {
+    width: 80%;
+  }
+
+  .AboutUs-Subcontainer {
+    margin: 3vw 0;
+  }
+
+  .AboutUs-Subcontainer-Area {
+    font-size: 8vw;
+  }
+
+  .AboutUs-Subcontainer-Image {
+    height: 70vw;
+  }
+
+  .AboutUs-Subcontainer:hover {
+    padding-bottom: 70vw;
+  }
+
+  .Circle-1 {
+    top: 65vw;
+  }
+
+  .Circle-2 {
+    top: 45vw;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .AboutUs {
+    padding: 7vw 0 9vw;
+  }
+
+  .AboutUs-Text {
+    width: 75%;
+  }
+
+  .AboutUs-Text-Title {
+    font-size: 1.9vw;
+    margin-bottom: 1vw;
+  }
+
+  .AboutUs-Text-Subtitle.Mobile {
+    display: none;
+  }
+
+  .AboutUs-Text-Subtitle.Desktop {
+    display: block;
+  }
+
+  .AboutUs-Text-Subtitle {
+    font-size: 1.38vw;
+    margin: 1vw 0 3vw;
+  }
+
+  .AboutUs-Container {
+    position: relative;
+    width: 75%;
+  }
+
+  .AboutUs-Subcontainer {
+    width: 28vw;
+    margin: 1vw 0;
+    position: static;
+    align-items: flex-start;
+  }
+
+  .AboutUs-Subcontainer-Area {
+    font-size: 3vw;
+    width: 100%;
+  }
+
+  .AboutUs-Subcontainer-Area-Checkbox {
+    width: 1vw;
+    height: 1vw;
+  }
+
+  .AboutUs-Subcontainer-Image {
+    width: 40vw;
+    height: 30vw;
+    left: 45%;
+    top: 1vw;
+  }
+
+  .AboutUs-Subcontainer:hover {
+    padding-bottom: 0vw;
+  }
+
+  .Circle-1 {
+    top: 24vw;
+    width: 30vw;
+    height: 30vw;
+    left: 45%;
+  }
+
+  .Circle-2 {
+    top: 10vw;
+    width: 8vw;
+    height: 8vw;
+  }
+}
