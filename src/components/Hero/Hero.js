@@ -3,7 +3,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="container-Hero">
+    <div className="container-Hero" id="Hero">
       <div className="txt">
         <p className="txt-1">-Hola somos Vernal!</p>
         <p className="txt-2">

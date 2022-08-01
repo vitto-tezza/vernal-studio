@@ -83,3 +83,54 @@
   background-repeat: no-repeat;
   background-position: center 47%;
 }
+
+@media screen and (min-width: 1199px) {
+  .BannerUp {
+    height: 16vw;
+  }
+
+  .BannerUp-Slider-Container {
+    height: 5vw;
+    margin-top: 3vw;
+  }
+
+  .BannerUp-Slider {
+    width: 144vw;
+  }
+
+  .BannerUp-Slider-Image {
+    width: 2vw;
+    height: 2vw;
+    margin: 0 1vw;
+  }
+
+  .BannerUp-Slider-Text {
+    width: 20vw;
+    font-size: 1.8vw;
+    height: 2vw;
+  }
+
+  .BannerUp-Button-Container {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .BannerUp-Button {
+    width: 5vw;
+    height: 5vw;
+    margin-top: 3vw;
+  }
+
+  .BannerUp-Button-Image {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  @keyframes BannerUpSlider {
+    0% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: -48vw;
+    }
+  }
+}
