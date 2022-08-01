@@ -1,3 +1,11 @@
+/* 
+Colors:
+  violeta: #8c32ff;
+  verde-agua: #65e0b1;
+Fonts:
+
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 
 .App {
@@ -8,14 +16,12 @@ html {
   scroll-behavior: smooth;
 }
 
-/* 
-Colors:
-  violeta: #8c32ff;
-  verde-agua: #65e0b1;
-Fonts:
+.Desktop {
+  display: none;
+}
 
-
-
-
-
-*/
+@media screen and (min-width: 1199px) {
+  .Desktop {
+    display: flex;
+  }
+}
