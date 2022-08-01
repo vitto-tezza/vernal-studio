@@ -1,5 +1,10 @@
 import React, { useState } from "react";
+/*css*/
 import "./NavBar.css";
+/*images*/
+import imgMenu from "../../utils/images/img-menu.png";
+import logoVernalWhite from "../../utils/images/logo-vernal-white.png";
+import logoVernalBlack from "../../utils/images/logo-vernal-black.png";
 
 function NavBar() {
   const [menu, setMenu] = useState(false);
@@ -12,35 +17,43 @@ function NavBar() {
     <header className="container-NavBar">
       <div className="menu">
         <div onClick={toggleMenu}>
-          <img className="img-menu" src="imgMenu.png"></img>
+          <img className="img-menu" src={imgMenu}></img>
         </div>
       </div>
 
       <div className="logo">
-        <img className="logo-vernal" src="logoVernal.png"></img>
+        <img className="logo-vernal" src={logoVernalWhite}></img>
       </div>
       <div className={`Desplegable ${menu ? "isActive" : ""}`}>
         <div className="menu-nav">
-          {/* LOGO  FALTA         */}logo
-          <div className="Logo-Container"></div>
-          <ul className="menu-ul">
-            {/* BOTON IDIOMAS FALTA */}idiomas
-            <li className="menu-li">
-              <a href="#" className="menu-a">
-                Proyectos
-              </a>
-            </li>
-            <li className="menu-li">
-              <a href="#" className="menu-a">
-                Nosotros
-              </a>
-            </li>
-            <li className="menu-li">
-              <a href="#" className="menu-a">
-                Servicios
-              </a>
-            </li>
-          </ul>
+          <div>
+            <img className="logo-desplegable" src={logoVernalBlack}></img>
+          </div>
+          <div>
+            <ul className="menu-ul">
+              {/* BOTON IDIOMAS FALTA */}idiomas
+              <li className="menu-li">
+                <a href="#" className="menu-a">
+                  Proyectos
+                </a>
+              </li>
+              <li className="menu-li">
+                <a href="#" className="menu-a">
+                  Nosotros
+                </a>
+              </li>
+              <li className="menu-li">
+                <a href="#" className="menu-a">
+                  Servicios
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="txt-desplegable">
+            <p className="txt-desplegable-1">Estudio creativo de diseno</p>
+            <p className="txt-desplegable-2">Buenos Aires, Argentina</p>
+            <p className="txt-desplegable-tel">+54 9112345678</p>
+          </div>
         </div>
       </div>
     </header>
