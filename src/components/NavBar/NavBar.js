@@ -29,20 +29,25 @@ function NavBar() {
           <div>
             <img className="logo-desplegable" src={logoVernalBlack}></img>
           </div>
-          <div>
+          <div className="menu-list">
+            <div className="language-button" id="language-button">
+              ES <img className="language-button-img"></img>
+            </div>
             <ul className="menu-ul">
-              {/* BOTON IDIOMAS FALTA */}idiomas
               <li className="menu-li">
+                <div className="menu-checkbox"></div>
                 <a href="#" className="menu-a">
                   Proyectos
                 </a>
               </li>
               <li className="menu-li">
+                <div className="menu-checkbox"></div>
                 <a href="#" className="menu-a">
                   Nosotros
                 </a>
               </li>
               <li className="menu-li">
+                <div className="menu-checkbox"></div>
                 <a href="#" className="menu-a">
                   Servicios
                 </a>
@@ -53,6 +58,10 @@ function NavBar() {
             <p className="txt-desplegable-1">Estudio creativo de diseno</p>
             <p className="txt-desplegable-2">Buenos Aires, Argentina</p>
             <p className="txt-desplegable-tel">+54 9112345678</p>
+          </div>
+          <div>
+            <p>Contactanos</p>
+            <img src=""></img>
           </div>
         </div>
       </div>

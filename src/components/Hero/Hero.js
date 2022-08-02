@@ -1,5 +1,8 @@
 import React, { useState } from "react";
+/*css*/
 import "./Hero.css";
+/*images*/
+import fotoHero from "../../utils/images/foto-hero.png";
 
 const Hero = () => {
   return (
@@ -12,7 +15,7 @@ const Hero = () => {
         <h1>Branding, web, diseno y mas</h1>
       </div>
       <div>
-        <img className="grupo69" src="grupo69.png"></img>
+        <img className="foto-hero" src={fotoHero}></img>
       </div>
     </div>
   );

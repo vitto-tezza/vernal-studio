@@ -19,8 +19,27 @@ h1 {
   font-size: 4vw;
   font-weight: 300;
 }
-.grupo69 {
+.foto-hero {
   position: absolute;
   z-index: 1;
   width: 100vw;
+}
+@media screen and (min-width: 1199px) {
+  .txt {
+    width: 50%;
+  }
+  .txt-1 {
+    font-size: 3vw;
+  }
+  .txt-2 {
+    font-size: 3.5vw;
+  }
+  h1 {
+    font-size: 2vw;
+  }
+  .foto-hero {
+    width: 50%;
+    right: 0;
+    top: 10vw;
+  }
 }
