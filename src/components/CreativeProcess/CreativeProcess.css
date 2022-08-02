@@ -1,0 +1,110 @@
+.CreativeProcess {
+  background-color: #131313;
+  padding: 20vw 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CreativeProcess-Title-Container {
+  width: 85%;
+}
+
+.CreativeProcess-Title-Description {
+  color: #65e0b1;
+  font-size: 4.3vw;
+  margin: 0 0 2vw;
+  letter-spacing: 1px;
+}
+
+.CreativeProcess-Title {
+  color: #fff;
+  font-size: 7vw;
+  margin: 0;
+}
+
+.CreativeProcess-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: -3vw;
+  width: 85%;
+}
+
+.CreativeProcess-Box {
+  position: relative;
+  width: 75%;
+  margin-top: 10vw;
+  padding: 7vw 6vw;
+  border-radius: 5vw;
+  background-color: #000;
+}
+
+.CreativeProcess-Box-Icon {
+  width: 18vw;
+  height: 18vw;
+  position: absolute;
+  right: -3vw;
+  top: -3vw;
+  border-radius: 100vw;
+  overflow: hidden;
+  background-color: #131313;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CreativeProcess-Box-Icon-Figure {
+  width: 65%;
+  height: 65%;
+  margin: 0;
+  border-radius: 100vw;
+  border: 0.5vw solid #65e0b1;
+}
+
+.CreativeProcess-Figure-1 {
+  background-image: url(../../utils/images/creativeprocess-icon1.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.CreativeProcess-Figure-2 {
+  background-image: url(../../utils/images/creativeprocess-icon2.svg);
+  background-size: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.CreativeProcess-Figure-3 {
+  background-image: url(../../utils/images/creativeprocess-icon3.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.CreativeProcess-Figure-4 {
+  background-image: url(../../utils/images/creativeprocess-icon4.svg);
+  background-size: 54%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.CreativeProcess-Box-Number {
+  color: #8c32ff;
+  margin: 0;
+  font-size: 4.5vw;
+}
+
+.CreativeProcess-Box-Title {
+  color: #fff;
+  font-size: 5.5vw;
+  margin: 2vw 0 4vw;
+}
+
+.CreativeProcess-Box-Description {
+  color: #bbb;
+  font-size: 3.5vw;
+  margin: 0;
+}
