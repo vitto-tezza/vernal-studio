@@ -3,11 +3,11 @@
   padding: 20vw 0 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .CreativeProcess-Title-Container {
   width: 85%;
+  margin: 0 auto;
 }
 
 .CreativeProcess-Title-Description {
@@ -30,6 +30,7 @@
   position: relative;
   bottom: -3vw;
   width: 85%;
+  margin: 0 auto;
 }
 
 .CreativeProcess-Box {
@@ -107,4 +108,87 @@
   color: #bbb;
   font-size: 3.5vw;
   margin: 0;
+}
+
+.Background-Image-Container-Desktop {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+}
+
+@media screen and (min-width: 1199px) {
+  .CreativeProcess {
+    padding: 7vw 0 2vw;
+    position: relative;
+  }
+
+  .CreativeProcess-Title-Container {
+    width: 70%;
+  }
+
+  .CreativeProcess-Title-Description {
+    font-size: 1.8em;
+    margin: 0 0 0.5vw;
+  }
+
+  .CreativeProcess-Title {
+    font-size: 2.6em;
+  }
+
+  .CreativeProcess-Container {
+    width: 34vw;
+    bottom: 0;
+    right: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 15%;
+  }
+
+  .CreativeProcess-Box {
+    width: 37%;
+    height: 12vw;
+    padding: 2.4vw 1.5vw 2vw;
+    border-radius: 1.8vw;
+    margin: 1.3vw 0;
+  }
+
+  .CreativeProcess-Box-Icon {
+    width: 5vw;
+    height: 5vw;
+    right: -0.7vw;
+    top: -0.7vw;
+  }
+
+  .CreativeProcess-Box-Icon-Figure {
+    border: 0.25vw solid #65e0b1;
+  }
+
+  .CreativeProcess-Box-Number {
+    font-size: 1.4vw;
+    margin: 0;
+  }
+
+  .CreativeProcess-Box-Title {
+    font-size: 1.4vw;
+    margin: 0;
+  }
+
+  .CreativeProcess-Box-Description {
+    font-size: 0.7vw;
+    margin: 1vw 0 0;
+  }
+
+  .Background-Image-Container-Desktop {
+    position: absolute;
+    display: flex;
+    bottom: -5vw;
+    margin-left: -20%;
+    width: 60%;
+  }
+
+  .Background-Image-Desktop {
+    width: 100%;
+  }
 }

@@ -1,12 +1,12 @@
 import React from "react";
 import "./CreativeProcess.css";
-
+import Background from "../../utils/images/creativeprocess-bg.png";
 const creativeProcess = () => {
   return (
     <div className="CreativeProcess">
       <div className="CreativeProcess-Title-Container">
         <p className="CreativeProcess-Title-Description">
-          - Conocé nuestro <br></br>proceso creativo
+          - Conocé nuestro proceso creativo
         </p>
         <h6 className="CreativeProcess-Title">Design Thinking</h6>
       </div>
@@ -67,6 +67,9 @@ const creativeProcess = () => {
             Un ecosistema gráfico donde tu <br></br>marca se desenvuelva.
           </p>
         </div>
+      </div>
+      <div className="Background-Image-Container-Desktop">
+        <img className="Background-Image-Desktop" src={Background} alt=""></img>
       </div>
     </div>
   );
