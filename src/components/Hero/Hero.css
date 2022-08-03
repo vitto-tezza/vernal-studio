@@ -1,4 +1,4 @@
-.container-Hero {
+.Hero {
 }
 .txt {
   margin: 5vw;
@@ -19,7 +19,7 @@ h1 {
   font-size: 4vw;
   font-weight: 300;
 }
-.foto-hero {
+.Hero-Background-Image {
   position: absolute;
   z-index: 1;
   width: 100vw;
@@ -37,9 +37,9 @@ h1 {
   h1 {
     font-size: 2vw;
   }
-  .foto-hero {
-    width: 50%;
+  .Hero-Background-Image {
+    width: 45%;
     right: 0;
-    top: 10vw;
+    top: 15vw;
   }
 }

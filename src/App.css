@@ -15,16 +15,3 @@ Fonts:
 html {
   scroll-behavior: smooth;
 }
-
-.Desktop {
-  display: none;
-}
-
-@media screen and (min-width: 1199px) {
-  .Desktop {
-    display: flex;
-  }
-  .Mobile {
-    display: none;
-  }
-}
