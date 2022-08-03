@@ -3,13 +3,16 @@ Colors:
   violeta: #8c32ff;
   verde-agua: #65e0b1;
 Fonts:
+  light: 300
+  regular: 400
+  SeBuemibold: 600
 
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 
 .App {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 html {

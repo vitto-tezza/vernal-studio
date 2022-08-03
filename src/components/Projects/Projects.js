@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import ProjectsArrow from "../../utils/images/projects-titlearrow.svg";
 import LogoLoop3 from "../../utils/images/projects-loop3-logo.png";
 import LogoMaderoTango from "../../utils/images/projects-maderotango-logo.png";
 import LogoDaleplast from "../../utils/images/projects-daleplast-logo.png";
@@ -19,7 +20,7 @@ const Projects = () => {
           <p className="Projects-Title Projects-Title-3">
             innovadores y con caracter.
           </p>
-          <img className="Projects-Arrow" src="flecha.png"></img>
+          <img className="Projects-Arrow" src={ProjectsArrow}></img>
           <p className="Projects-Subtitle">- Es mejor si te lo mostramos:</p>
         </div>
         <div className="Projects-Subcontainer">

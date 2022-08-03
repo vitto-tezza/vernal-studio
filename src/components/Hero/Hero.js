@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="Hero" id="Hero">
       <div className="Hero-Container">
         <div className="txt">
-          <p className="txt-1">-Hola somos Vernal!</p>
+          <p className="txt-1">- ¡Hola somos Vernal!</p>
           <p className="txt-2">
             Un equipo creativo que busca la evolucion de tu proyecto
           </p>
