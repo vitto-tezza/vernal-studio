@@ -33,7 +33,7 @@ const Projects = () => {
               ></img>
             </div>
             <div className="Projects-Subcontainer-Box-Button"></div>
-            <h2 className="Projects-Subcontainer-Box-Title">loop3</h2>
+            <h3 className="Projects-Subcontainer-Box-Title">loop3</h3>
             <p className="Projects-Subcontainer-Box-Description">
               Web design, Branding, Logotipo.
             </p>
@@ -47,7 +47,7 @@ const Projects = () => {
               ></img>
             </div>
             <div className="Projects-Subcontainer-Box-Button"></div>
-            <h3 className="Projects-Subcontainer-Box-Title">madero tango</h3>
+            <h4 className="Projects-Subcontainer-Box-Title">madero tango</h4>
             <p className="Projects-Subcontainer-Box-Description">
               Web Design, Branding, Mailing.
             </p>
@@ -61,7 +61,7 @@ const Projects = () => {
               ></img>
             </div>
             <div className="Projects-Subcontainer-Box-Button"></div>
-            <h4 className="Projects-Subcontainer-Box-Title">daleplast</h4>
+            <h5 className="Projects-Subcontainer-Box-Title">daleplast</h5>
             <p className="Projects-Subcontainer-Box-Description">
               Web Design, Branding, Logotipo
             </p>
@@ -75,7 +75,7 @@ const Projects = () => {
               ></img>
             </div>
             <div className="Projects-Subcontainer-Box-Button"></div>
-            <h5 className="Projects-Subcontainer-Box-Title">tu espacio</h5>
+            <h6 className="Projects-Subcontainer-Box-Title">tu espacio</h6>
             <p className="Projects-Subcontainer-Box-Description">
               Logotipo, Web Design, Branding, Social Media.
             </p>
