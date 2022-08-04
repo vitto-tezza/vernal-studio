@@ -12,15 +12,18 @@
 
 .CreativeProcess-Title-Description {
   color: #65e0b1;
-  font-size: 4.3vw;
+  font-size: 4.6vw;
   margin: 0 0 2vw;
+  width: 50%;
+  font-weight: 300;
   letter-spacing: 1px;
 }
 
 .CreativeProcess-Title {
   color: #fff;
-  font-size: 7vw;
+  font-size: 7.3vw;
   margin: 0;
+  font-weight: 400;
 }
 
 .CreativeProcess-Container {
@@ -38,7 +41,7 @@
   width: 75%;
   margin-top: 10vw;
   padding: 7vw 6vw;
-  border-radius: 5vw;
+  border-radius: 6vw;
   background-color: #000;
 }
 
@@ -100,14 +103,19 @@
 
 .CreativeProcess-Box-Title {
   color: #fff;
-  font-size: 5.5vw;
+  font-size: 5.3vw;
   margin: 2vw 0 4vw;
 }
 
 .CreativeProcess-Box-Description {
-  color: #bbb;
-  font-size: 3.5vw;
+  color: #ddd;
+  font-size: 3.8vw;
   margin: 0;
+  line-height: 150%;
+}
+
+.CreativeProcess-Box-Description-Desktop {
+  display: none;
 }
 
 .Background-Image-Container-Desktop {
@@ -128,8 +136,10 @@
   }
 
   .CreativeProcess-Title-Description {
-    font-size: 1.8em;
+    font-size: 1.4em;
     margin: 0 0 0.5vw;
+    width: 100%;
+    font-weight: 400;
   }
 
   .CreativeProcess-Title {
@@ -149,7 +159,7 @@
   .CreativeProcess-Box {
     width: 37%;
     height: 12vw;
-    padding: 2.4vw 1.5vw 2vw;
+    padding: 2.4vw 1.5vw 1vw;
     border-radius: 1.8vw;
     margin: 1.3vw 0;
   }
@@ -166,18 +176,28 @@
   }
 
   .CreativeProcess-Box-Number {
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     margin: 0;
   }
 
   .CreativeProcess-Box-Title {
     font-size: 1.4vw;
-    margin: 0;
+    margin: 0.5vw 0;
   }
 
   .CreativeProcess-Box-Description {
-    font-size: 0.7vw;
+    font-size: 1.14vw;
     margin: 1vw 0 0;
+    font-weight: 300;
+    line-height: 160%;
+  }
+
+  .CreativeProcess-Box-Description-Desktop {
+    display: block;
+  }
+
+  .CreativeProcess-Box-Description-Mobile {
+    display: none;
   }
 
   .Background-Image-Container-Desktop {

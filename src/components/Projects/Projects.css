@@ -61,7 +61,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 7vw 1vw rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 10vw 1vw rgba(0, 0, 0, 0.8);
 }
 
 .Logo-Loop {
@@ -105,20 +105,22 @@
   background-size: 30%;
   background-position: center;
   background-repeat: no-repeat;
-  margin: -8.5vw 0 2vw;
+  margin: -7.5vw 0 2vw;
 }
 
 .Projects-Subcontainer-Box-Title {
   font-size: 8vw;
   color: #fff;
-  margin: 0;
+  margin: 1vw 0 3vw;
+  font-weight: 400;
   text-transform: capitalize;
 }
 
 .Projects-Subcontainer-Box-Description {
-  font-size: 3vw;
+  font-size: 3.2vw;
   color: #aaa;
-  margin: 2vw 0 0;
+  margin: 0;
+  font-style: italic;
 }
 
 .Projects-More-Container {
@@ -179,7 +181,7 @@
   }
 
   .Projects-Subcontainer-Box-Image {
-    height: 33.5vw;
+    height: 32vw;
   }
 
   .Projects-Subcontainer-Box-Button {
@@ -190,7 +192,7 @@
     background-color: rgba(0, 0, 0, 0);
     background-image: url(../../utils/images/projects-morearrow.svg);
     position: absolute;
-    bottom: 6.7vw;
+    top: 34.1vw;
     right: 0;
   }
 

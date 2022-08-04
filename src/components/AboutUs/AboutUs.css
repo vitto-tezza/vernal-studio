@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  padding: 10vw 0;
+  padding: 15vw 0;
 }
 
 .AboutUs-Text {
@@ -12,7 +12,7 @@
 
 .AboutUs-Text-Title {
   color: #65e0b1;
-  font-size: 6vw;
+  font-size: 5.75vw;
   margin: 0 0 4vw;
 }
 
@@ -20,6 +20,14 @@
   font-size: 4.2vw;
   line-height: 110%;
   margin: 4vw 0;
+}
+
+.AboutUs-Text-Subtitle-Desktop {
+  display: none;
+}
+
+.AboutUs-Text-Subtitle-Span {
+  font-weight: 600;
 }
 
 .AboutUs-Container {
@@ -47,13 +55,14 @@
   align-items: center;
   justify-content: space-between;
   font-size: 9vw;
+  font-weight: 600;
   transition: 0.5s;
 }
 
 .AboutUs-Subcontainer-Area-Checkbox {
   width: 2vw;
   height: 2vw;
-  border: 2px solid #aaa;
+  border: 0.7vw solid #aaa;
   border-radius: 200px;
 }
 
@@ -153,17 +162,17 @@
     margin-bottom: 1vw;
   }
 
-  .AboutUs-Text-Subtitle.Mobile {
-    display: none;
+  .AboutUs-Text-Subtitle {
+    font-size: 1.33vw;
+    margin: 1vw 0 3vw;
   }
 
-  .AboutUs-Text-Subtitle.Desktop {
+  .AboutUs-Text-Subtitle-Desktop {
     display: block;
   }
 
-  .AboutUs-Text-Subtitle {
-    font-size: 1.38vw;
-    margin: 1vw 0 3vw;
+  .AboutUs-Text-Subtitle-Mobile {
+    display: none;
   }
 
   .AboutUs-Container {
@@ -186,6 +195,7 @@
   .AboutUs-Subcontainer-Area-Checkbox {
     width: 1vw;
     height: 1vw;
+    border: 0.2vw solid #aaa;
   }
 
   .AboutUs-Subcontainer-Image {

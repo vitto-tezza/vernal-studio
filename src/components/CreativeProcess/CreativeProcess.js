@@ -21,8 +21,12 @@ const creativeProcess = () => {
           </div>
           <p className="CreativeProcess-Box-Number">01</p>
           <p className="CreativeProcess-Box-Title">Empatizamos</p>
-          <p className="CreativeProcess-Box-Description">
+          <p className="CreativeProcess-Box-Description-Mobile CreativeProcess-Box-Description">
             Te escuchamos de verdad <br></br>por que nos interesa entenderte.
+          </p>
+          <p className="CreativeProcess-Box-Description-Desktop CreativeProcess-Box-Description">
+            Te escuchamos de <br></br>verdad por que nos<br></br>interesa
+            entenderte.
           </p>
         </div>
         <div className="CreativeProcess-Box">
@@ -35,8 +39,11 @@ const creativeProcess = () => {
           </div>
           <p className="CreativeProcess-Box-Number">02</p>
           <p className="CreativeProcess-Box-Title">Conceptualizamos</p>
-          <p className="CreativeProcess-Box-Description">
+          <p className="CreativeProcess-Box-Description-Mobile CreativeProcess-Box-Description">
             Le damos una personalidad única <br></br>a tu proyecto.
+          </p>
+          <p className="CreativeProcess-Box-Description-Desktop CreativeProcess-Box-Description">
+            Le damos una<br></br>personalidad única a<br></br>tu proyecto.
           </p>
         </div>
         <div className="CreativeProcess-Box">
@@ -49,8 +56,11 @@ const creativeProcess = () => {
           </div>
           <p className="CreativeProcess-Box-Number">03</p>
           <p className="CreativeProcess-Box-Title">Creamos</p>
-          <p className="CreativeProcess-Box-Description">
+          <p className="CreativeProcess-Box-Description-Mobile CreativeProcess-Box-Description">
             Distintas propuestas para que tu <br></br>marca cobre vida.
+          </p>
+          <p className="CreativeProcess-Box-Description-Desktop CreativeProcess-Box-Description">
+            Distintas propuestas<br></br>para que tu <br></br>marca cobre vida.
           </p>
         </div>
         <div className="CreativeProcess-Box">
@@ -63,8 +73,11 @@ const creativeProcess = () => {
           </div>
           <p className="CreativeProcess-Box-Number">04</p>
           <p className="CreativeProcess-Box-Title">Construimos</p>
-          <p className="CreativeProcess-Box-Description">
+          <p className="CreativeProcess-Box-Description-Mobile CreativeProcess-Box-Description">
             Un ecosistema gráfico donde tu <br></br>marca se desenvuelva.
+          </p>
+          <p className="CreativeProcess-Box-Description-Desktop CreativeProcess-Box-Description">
+            Un ecosistema gráfico<br></br>donde tu marca se<br></br>desenvuelva.
           </p>
         </div>
       </div>

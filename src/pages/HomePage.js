@@ -4,12 +4,14 @@ import Projects from "../components/Projects/Projects";
 import AboutUs from "../components/AboutUs/AboutUs";
 import CreativeProcess from "../components/CreativeProcess/CreativeProcess";
 import Contact from "../components/Contact/Contact";
+import Chat from "../components/Chat/Chat";
 import "./HomePage.css";
 
 const HomePage = () => {
   return (
     <div className="HomePage">
       <Hero />
+      <Chat />
       <Projects />
       <AboutUs />
       <CreativeProcess />

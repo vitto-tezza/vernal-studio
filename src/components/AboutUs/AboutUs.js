@@ -7,15 +7,17 @@ const AboutUs = () => {
     <div className="AboutUs" id="AboutUs">
       <div className="AboutUs-Text">
         <p className="AboutUs-Text-Title">- Participamos en cada detalle</p>
-        <p className="AboutUs-Text-Subtitle Mobile">
+        <p className="AboutUs-Text-Subtitle-Mobile AboutUs-Text-Subtitle">
           Nos especializamos en el desarrollo de<br></br>proyectos 360°,{" "}
-          <span>
-            cuidando cada<br></br>aspecto de tu marca
+          <span className="AboutUs-Text-Subtitle-Span">
+            cuidando cada<br></br>aspecto de tu marca.
           </span>{" "}
         </p>
-        <p className="AboutUs-Text-Subtitle Desktop">
+        <p className="AboutUs-Text-Subtitle-Desktop AboutUs-Text-Subtitle">
           Nos especializamos en el desarrollo de proyectos<br></br>360°,{" "}
-          <span>cuidando cada aspecto de tu marca</span>{" "}
+          <span className="AboutUs-Text-Subtitle-Span">
+            cuidando cada aspecto de tu marca.
+          </span>{" "}
         </p>
       </div>
       <div className="AboutUs-Container">
