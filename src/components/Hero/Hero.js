@@ -7,13 +7,16 @@ import fotoHero from "../../utils/images/foto-hero.png";
 const Hero = () => {
   return (
     <div className="Hero" id="Hero">
-      <div className="Hero-Container">
-        <div className="txt">
-          <p className="txt-1">- ¡Hola somos Vernal!</p>
-          <p className="txt-2">
-            Un equipo creativo que busca la evolucion de tu proyecto
+      <div className="hero-container">
+        <div className="hero-txt-container">
+          <h1 className="hero-title">- ¡Hola somos Vernal!</h1>
+          <p className="hero-description">
+            Un equipo <span className="hero-description-span">creativo</span>
+            <br></br> que busca la evolucion
+            <br></br>
+            de tu proyecto.
           </p>
-          <h1>Branding, web, diseno y mas</h1>
+          <h2 className="hero-subtitle">Branding, web, diseno y mas.</h2>
         </div>
       </div>
       <div className="Hero-Background-Container">

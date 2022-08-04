@@ -26,8 +26,11 @@ function NavBar() {
       </div>
       <div className={`Desplegable ${menu ? "isActive" : ""}`}>
         <div className="menu-nav">
-          <div>
+          <div className="logo-desplegable-container">
             <img className="logo-desplegable" src={logoVernalBlack}></img>
+          </div>
+          <div className="desplegable-title">
+            <p className="desplegable-title-pc">Hola somos Vernal!</p>
           </div>
           <div className="menu-list">
             <div className="language-button" id="language-button">

@@ -1,42 +1,60 @@
 .Hero {
+  padding: 12vw 0 82.7vw;
 }
-.txt {
-  margin: 5vw;
+.hero-container {
 }
-.txt-1 {
-  font-size: 6vw;
-  color: blueviolet;
+.hero-txt-container {
+  margin: 0 auto;
+  width: 90%;
+}
+.hero-title {
+  margin: 0;
+  font-size: 7.2vw;
+  color: #8c32ff;
   font-weight: 400;
 }
-.txt-2 {
-  font-size: 7vw;
-  color: black;
-  font-weight: 600;
-  letter-spacing: 1px;
+.hero-description {
+  margin: 2.5vw 0 4.5vw;
+  font-size: 7.8vw;
+  font-weight: 400;
 }
-h1 {
-  font-size: 4vw;
+.hero-description-span {
+  font-style: italic;
+  font-weight: 600;
+}
+.hero-subtitle {
+  margin: 0;
+  font-size: 4.1vw;
   font-weight: 300;
 }
 .Hero-Background-Image {
   position: absolute;
   right: 0;
-  top: 86vw;
+  top: 100vw;
   z-index: 1;
   width: 95vw;
 }
 @media screen and (min-width: 1199px) {
-  .txt {
+  .Hero {
+    padding: 4vw 0 10.5vw;
+  }
+  .hero-container {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .hero-txt-container {
+    margin: 0;
     width: 50%;
   }
-  .txt-1 {
-    font-size: 3vw;
+  .hero-title {
+    font-size: 2.3vw;
   }
-  .txt-2 {
-    font-size: 3.5vw;
+  .hero-description {
+    margin: 1vw 0 6vw;
+    font-size: 3.3vw;
   }
-  h1 {
-    font-size: 2vw;
+  .hero-subtitle {
+    font-size: 1.3vw;
   }
   .Hero-Background-Image {
     width: 45%;

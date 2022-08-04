@@ -1,11 +1,7 @@
 .container-NavBar {
   display: flex;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
-/* .container-NavBar.isActive {
-  position: fixed;
-  background-color: black;
-} */
 .img-menu {
   width: 7vw;
   margin: 8vw;
@@ -16,6 +12,7 @@
   z-index: 500;
 }
 .menu-nav {
+  border: 2px solid red;
   width: 90%;
   height: 100%;
   display: flex;
@@ -46,9 +43,10 @@
   border: 2px solid white;
 }
 .menu-ul {
+  border: 2px solid green;
   flex-direction: column;
   width: 100%;
-  height: 60vw;
+  height: auto;
   padding: 0;
   list-style: none;
 }
@@ -83,6 +81,9 @@
   margin-left: 15vw;
   margin-top: 7vw;
 }
+.desplegable-title {
+  display: none;
+}
 
 .Desplegable {
   display: flex;
@@ -105,7 +106,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-top: 5vw;
+  padding: 5vw 0;
   border-bottom: 0.2vw solid #aaa;
 }
 .txt-desplegable-1 {
@@ -119,10 +120,14 @@
 .txt-desplegable-tel {
   color: #8c32ff;
   margin: 0;
-  margin-bottom: 5vw;
 }
 
 @media screen and (min-width: 1199px) {
+  .menu-nav {
+    width: 80%;
+    align-items: flex-start;
+    position: relative;
+  }
   .img-menu {
     width: 2vw;
     margin: 4vw;
@@ -132,16 +137,32 @@
     margin-left: 5vw;
     margin-top: 3vw;
   }
-  .Desplegable.isActive {
-    width: 70%;
+  .Desplegable {
+    width: 75%;
+    margin-left: -75%;
   }
   .logo-desplegable {
     display: none;
+  }
+  .desplegable-title {
+    border: 2px solid blue;
+    display: flex;
+    margin-left: 10%;
+  }
+  .desplegable-title-pc {
+    color: #8c32ff;
+  }
+  .menu-list {
+    width: 90%;
+    position: static;
+    padding: 0;
+    margin-left: 10%;
   }
   .menu-ul {
     width: 50%;
   }
   .menu-li {
+    margin: 1vw 0;
     width: 50%;
     font-size: 2vw;
   }
@@ -149,8 +170,15 @@
     width: 0.5vw;
     height: 0.5vw;
   }
+  .language-button {
+    display: none;
+  }
   .txt-desplegable {
+    width: 30%;
     top: 0;
+    position: absolute;
+    right: 0;
+    padding: 0;
     border: 2px solid red;
   }
 }
