@@ -123,6 +123,12 @@
   margin: 0;
   font-weight: 200;
 }
+.desplegable-contactanos {
+  color: #8c32ff;
+  font-size: 5vw;
+  margin-top: 24.5vw;
+  margin-left: 8.7vw;
+}
 
 @media screen and (min-width: 1199px) {
   .menu-nav {
@@ -196,12 +202,12 @@
   }
   .txt-desplegable-2 {
     font-size: 1vw;
-    padding-left: 3vw;
+    padding-left: 2.1vw;
     font-weight: 200;
   }
   .txt-desplegable-tel {
     font-size: 1vw;
-    padding-left: 7vw;
+    padding-left: 5.9vw;
     font-weight: 200;
     color: white;
   }
