@@ -30,7 +30,7 @@ function NavBar() {
             <img className="logo-desplegable" src={logoVernalBlack}></img>
           </div>
           <div className="desplegable-title">
-            <p className="desplegable-title-pc">Hola somos Vernal!</p>
+            <p className="desplegable-title-pc">- Hola somos Vernal!</p>
           </div>
           <div className="menu-list">
             <div className="language-button" id="language-button">
@@ -63,7 +63,7 @@ function NavBar() {
             <p className="txt-desplegable-tel">+54 9112345678</p>
           </div>
           <div>
-            <p>Contactanos</p>
+            <p className="desplegable-contactanos">Contactanos</p>
             <img src=""></img>
           </div>
         </div>
