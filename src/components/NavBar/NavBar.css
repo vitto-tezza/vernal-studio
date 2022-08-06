@@ -123,11 +123,24 @@
   margin: 0;
   font-weight: 200;
 }
+.container-desplegable-contactanos {
+  width: 100%;
+  bottom: 0;
+}
 .desplegable-contactanos {
+  width: 50%;
   color: #8c32ff;
   font-size: 5vw;
-  margin-top: 24.5vw;
-  margin-left: 8.7vw;
+  margin-top: 23vw;
+  margin-left: 27vw;
+}
+.desplegable-contactanos-flecha {
+  width: 4vw;
+  position: absolute;
+  top: 4.6vw;
+  right: 0;
+  padding: 155vw 30vw;
+  transform: rotate(-90deg);
 }
 
 @media screen and (min-width: 1199px) {
@@ -211,10 +224,19 @@
     font-weight: 200;
     color: white;
   }
+  .container-desplegable-contactanos {
+    width: 50vw;
+  }
   .desplegable-contactanos {
     color: #8c32ff;
-    font-size: 2.2vw;
-    margin-top: 2vw;
-    margin-left: 8.7vw;
+    font-size: 1.3vw;
+    margin-top: 2.5vw;
+    margin-left: 9vw;
+  }
+  .desplegable-contactanos-flecha {
+    width: 2%;
+    margin: 30.7vw 38vw;
+    padding: 0;
+    transform: rotate(360deg);
   }
 }

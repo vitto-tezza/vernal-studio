@@ -3,10 +3,24 @@ import React, { useState } from "react";
 import "./Hero.css";
 /*images*/
 import fotoHero from "../../utils/images/foto-hero.png";
+import fotoInsta from "../../utils/images/hero-image-insta.png";
+import fotoBe from "../../utils/images/hero-image-be.png";
+import fotoIn from "../../utils/images/hero-image-in.png";
 
 const Hero = () => {
   return (
     <div className="Hero" id="Hero">
+      <div className="hero-container-redes">
+        <div className="hero-insta">
+          <img className="hero-insta-image" src={fotoInsta}></img>
+        </div>
+        <div className="hero-be">
+          <img className="hero-be-image" src={fotoBe}></img>
+        </div>
+        <div className="hero-in">
+          <img className="hero-in-image" src={fotoIn}></img>
+        </div>
+      </div>
       <div className="hero-container">
         <div className="hero-txt-container">
           <h1 className="hero-title">- ¡Hola somos Vernal!</h1>

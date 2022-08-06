@@ -3,6 +3,9 @@
 }
 .hero-container {
 }
+.hero-container-redes {
+  display: none;
+}
 .hero-txt-container {
   margin: 0 auto;
   width: 90%;
@@ -37,6 +40,30 @@
 @media screen and (min-width: 1199px) {
   .Hero {
     padding: 4vw 0 10.5vw;
+  }
+  .hero-container-redes {
+    position: absolute;
+    width: 8vw;
+    height: 15vw;
+    padding: 5.6vw 5vw;
+  }
+  .hero-insta {
+  }
+  .hero-insta-image {
+    width: 1.5vw;
+    margin-top: 0.5vw;
+    margin-bottom: 1.4vw;
+  }
+  .hero-be {
+  }
+  .hero-be-image {
+    width: 1.5vw;
+    margin-bottom: 1.4vw;
+  }
+  .hero-in {
+  }
+  .hero-in-image {
+    width: 1.2vw;
   }
   .hero-container {
     width: 75%;

@@ -5,6 +5,7 @@ import "./NavBar.css";
 import imgMenu from "../../utils/images/img-menu.png";
 import logoVernalWhite from "../../utils/images/logo-vernal-white.png";
 import logoVernalBlack from "../../utils/images/logo-vernal-black.png";
+import flechaContactanos from "../../utils/images/flecha-contactanos.png";
 
 function NavBar() {
   const [menu, setMenu] = useState(false);
@@ -59,12 +60,17 @@ function NavBar() {
           </div>
           <div className="txt-desplegable">
             <p className="txt-desplegable-1">Estudio creativo de diseno</p>
-            <p className="txt-desplegable-2">Buenos Aires, Argentina</p>
+            <p className="txt-desplegable-2">Buenos Aires, Argentina.</p>
             <p className="txt-desplegable-tel">+54 9112345678</p>
           </div>
-          <div>
-            <p className="desplegable-contactanos">Contactanos</p>
-            <img src=""></img>
+          <div className="container-desplegable-contactanos">
+            <p className="desplegable-contactanos">CONTACTANOS</p>
+            <div className="container-desplegable-contactanos-flecha">
+              <img
+                className="desplegable-contactanos-flecha"
+                src={flechaContactanos}
+              ></img>
+            </div>
           </div>
         </div>
       </div>

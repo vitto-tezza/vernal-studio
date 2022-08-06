@@ -1,4 +1,128 @@
-.Contact {
-  height: 10vw;
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
+  height: 100%;
+}
+.container-contact-txt {
+  height: 100%;
+  width: 80%;
+  margin: 10vw 0;
+}
+.container-contact-txt-title {
+  font-size: 9vw;
+  color: #8c32ff;
+  font-weight: 600;
+}
+.container-contact-txt-subtitle {
+  font-size: 6.6vw;
+  font-weight: 400;
+}
+.contact-txt-span {
+  font-style: italic;
+  font-weight: 600;
+}
+.container-contact-txt-last {
+  font-size: 3.4vw;
+  font-weight: 400;
+}
+.container-contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1vw;
+}
+.contact-name {
+  width: 85%;
+  border: none;
+  margin: 5%;
+  border-bottom: 0.2vw solid #aaa;
+}
+.contact-email {
+  width: 85%;
+  border: none;
+  margin: 5%;
+  border-bottom: 0.2vw solid #aaa;
+}
+.contact-coment {
+  width: 85%;
+  border: none;
+  margin: 5%;
+  border-bottom: 0.2vw solid #aaa;
+}
+.contact-button-submit {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-bottom: 8vw;
+}
+.contact-button-submit-img {
+  width: 30vw;
+}
+@media screen and (min-width: 1199px) {
+  .container-contact {
+    display: flex;
+    width: 100%;
+    height: 50vw;
+  }
+  .container-contact-txt {
+    height: 100%;
+    width: 65%;
+    margin: 10vw 0;
+  }
+  .container-contact-txt-title {
+    font-size: 3.8vw;
+    color: #8c32ff;
+    font-weight: 600;
+    margin-left: 16vw;
+  }
+  .container-contact-txt-subtitle {
+    font-size: 3.6vw;
+    font-weight: 400;
+    margin-left: 16vw;
+  }
+  .contact-txt-span {
+    font-style: italic;
+    font-weight: 600;
+  }
+  .container-contact-txt-last {
+    font-size: 1.7vw;
+    font-weight: 400;
+    margin-left: 16vw;
+  }
+  .container-contact-form {
+    width: 40%;
+    margin-top: 18vw;
+  }
+  .contact-name {
+    width: 90%;
+    border: none;
+    margin: 5%;
+    border-bottom: 0.2vw solid #aaa;
+  }
+  .contact-email {
+    width: 90%;
+    border: none;
+    margin: 5%;
+    border-bottom: 0.2vw solid #aaa;
+  }
+  .contact-coment {
+    width: 90%;
+    border: none;
+    margin: 5%;
+    border-bottom: 0.2vw solid #aaa;
+  }
+  .contact-button-submit {
+    margin-left: 26vw;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .contact-button-submit-img {
+    width: 8vw;
+  }
 }
