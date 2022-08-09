@@ -66,6 +66,7 @@
 @media screen and (min-width: 1199px) {
   .container-contact {
     display: flex;
+    flex-direction: row;
     width: 100%;
     height: 50vw;
   }
@@ -78,6 +79,7 @@
     font-size: 3.8vw;
     color: #8c32ff;
     font-weight: 600;
+    margin-top: 10vw;
     margin-left: 16vw;
   }
   .container-contact-txt-subtitle {
@@ -97,6 +99,7 @@
   .container-contact-form {
     width: 40%;
     margin-top: 18vw;
+    margin-right: 5vw;
   }
   .contact-name {
     width: 90%;
