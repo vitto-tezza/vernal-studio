@@ -28,8 +28,13 @@
 .hero-subtitle {
   margin: 0;
   font-size: 4.1vw;
-  font-weight: 300;
+  font-weight: 600;
 }
+
+.hero-subtitle-image {
+  display: none;
+}
+
 .Hero-Background-Image {
   position: absolute;
   right: 0;
@@ -85,6 +90,14 @@
   .hero-subtitle {
     font-size: 1.3vw;
   }
+
+  .hero-subtitle-image {
+    display: inline-block;
+    margin-right: 0.5vw;
+    width: 1.1vw;
+    opacity: 0.5;
+  }
+
   .Hero-Background-Image {
     width: 45%;
     right: 0;

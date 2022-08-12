@@ -6,6 +6,7 @@ import fotoHero from "../../utils/images/foto-hero.png";
 import fotoInsta from "../../utils/images/hero-image-insta.png";
 import fotoBe from "../../utils/images/hero-image-be.png";
 import fotoIn from "../../utils/images/hero-image-in.png";
+import arrowDescription from "../../utils/images/hero-descriptionarrow.svg";
 
 const Hero = () => {
   return (
@@ -30,7 +31,14 @@ const Hero = () => {
             <br></br>
             de tu proyecto.
           </p>
-          <h2 className="hero-subtitle">Branding, web, diseno y mas.</h2>
+          <h2 className="hero-subtitle">
+            <img
+              alt=""
+              className="hero-subtitle-image"
+              src={arrowDescription}
+            ></img>
+            Branding, web, diseno y mas.
+          </h2>
         </div>
       </div>
       <div className="Hero-Background-Container">

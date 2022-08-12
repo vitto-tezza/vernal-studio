@@ -100,7 +100,7 @@
     margin: 0;
   }
   .container-contact-txt-title {
-    font-size: 3.8vw;
+    font-size: 3.4vw;
     color: #8c32ff;
     font-weight: 600;
     margin: 0;
@@ -126,7 +126,7 @@
     padding-top: 3.7vw;
   }
   .contact-name {
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-weight: 400;
     width: 90%;
     border: none;
@@ -134,7 +134,7 @@
     border-bottom: 0.2vw solid #777;
   }
   .contact-email {
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-weight: 400;
     width: 90%;
     border: none;
@@ -142,12 +142,13 @@
     border-bottom: 0.2vw solid #777;
   }
   .contact-coment {
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-weight: 400;
     width: 90%;
     height: 10vw;
     border: none;
     padding: 0.7vw 0.2vw;
+    margin-bottom: 3vw;
     border-bottom: 0.2vw solid #777;
   }
   .contact-button-submit {

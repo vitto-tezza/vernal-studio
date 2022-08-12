@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className="container-contact">
       <div className="container-contact-txt">
-        <p className="container-contact-txt-title">-Hablamos?</p>
+        <p className="container-contact-txt-title">- ¿Hablamos?</p>
         <p className="container-contact-txt-subtitle">
           Juntos podemos <span className="contact-txt-span">potenciar</span> tu
           proyecto.
@@ -22,18 +22,18 @@ const Contact = () => {
           className="contact-name"
           type="text"
           name="inp_name"
-          placeholder="cual es tu nombre?"
+          placeholder="¿Cuál es tu nombre?"
         />
         <input
           className="contact-email"
           type="text"
           name="inp_email"
-          placeholder="cual es tu correo electronico?"
+          placeholder="¿Cuál es tu correo electrónico?"
         />
         <textarea
           className="contact-coment"
           name="inp_mensaje"
-          placeholder="comentanos sobre tu proyecto :)"
+          placeholder="Contanos sobre tu proyecto :)"
         ></textarea>
         <div>
           <button className="contact-button-submit" type="submit">

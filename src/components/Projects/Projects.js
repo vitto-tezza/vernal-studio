@@ -18,7 +18,7 @@ const Projects = () => {
             para acercarte resultados
           </p>
           <p className="Projects-Title Projects-Title-3">
-            innovadores y con caracter.
+            innovadores y con carácter.
           </p>
           <img className="Projects-Arrow" src={ProjectsArrow}></img>
           <p className="Projects-Subtitle">- Es mejor si te lo mostramos:</p>
@@ -34,9 +34,21 @@ const Projects = () => {
             </div>
             <div className="Projects-Subcontainer-Box-Button"></div>
             <h3 className="Projects-Subcontainer-Box-Title">loop3</h3>
-            <p className="Projects-Subcontainer-Box-Description">
-              Web design, Branding, Logotipo.
+            <p className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Mobile">
+              Web Design, Branding, Logotipo.
             </p>
+            <div className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Desktop">
+              <div className="Projects-Subcontainer-Box-Checkbox"></div>Web
+              Design.
+            </div>
+            <div className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Desktop">
+              <div className="Projects-Subcontainer-Box-Checkbox"></div>
+              Branding.
+            </div>
+            <div className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Desktop">
+              <div className="Projects-Subcontainer-Box-Checkbox"></div>
+              Logotipo.
+            </div>
           </div>
           <div className="Projects-Subcontainer-Box">
             <div className="Projects-Subcontainer-Box-Image Image-MaderoTango">
@@ -48,9 +60,20 @@ const Projects = () => {
             </div>
             <div className="Projects-Subcontainer-Box-Button"></div>
             <h4 className="Projects-Subcontainer-Box-Title">madero tango</h4>
-            <p className="Projects-Subcontainer-Box-Description">
+            <p className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Mobile">
               Web Design, Branding, Mailing.
             </p>
+            <div className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Desktop">
+              <div className="Projects-Subcontainer-Box-Checkbox"></div>Web
+              Design.
+            </div>
+            <div className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Desktop">
+              <div className="Projects-Subcontainer-Box-Checkbox"></div>
+              Branding.
+            </div>
+            <div className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Desktop">
+              <div className="Projects-Subcontainer-Box-Checkbox"></div>Mailing.
+            </div>
           </div>
           <div className="Projects-Subcontainer-Box">
             <div className="Projects-Subcontainer-Box-Image Image-Daleplast">
@@ -62,9 +85,21 @@ const Projects = () => {
             </div>
             <div className="Projects-Subcontainer-Box-Button"></div>
             <h5 className="Projects-Subcontainer-Box-Title">daleplast</h5>
-            <p className="Projects-Subcontainer-Box-Description">
+            <p className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Mobile">
               Web Design, Branding, Logotipo
             </p>
+            <div className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Desktop">
+              <div className="Projects-Subcontainer-Box-Checkbox"></div>Web
+              Design.
+            </div>
+            <div className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Desktop">
+              <div className="Projects-Subcontainer-Box-Checkbox"></div>
+              Branding.
+            </div>
+            <div className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Desktop">
+              <div className="Projects-Subcontainer-Box-Checkbox"></div>
+              Logotipo.
+            </div>
           </div>
           <div className="Projects-Subcontainer-Box">
             <div className="Projects-Subcontainer-Box-Image Image-TuEspacio">
@@ -76,9 +111,25 @@ const Projects = () => {
             </div>
             <div className="Projects-Subcontainer-Box-Button"></div>
             <h6 className="Projects-Subcontainer-Box-Title">tu espacio</h6>
-            <p className="Projects-Subcontainer-Box-Description">
+            <p className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Mobile">
               Logotipo, Web Design, Branding, Social Media.
             </p>
+            <div className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Desktop">
+              <div className="Projects-Subcontainer-Box-Checkbox"></div>
+              Logotipo.
+            </div>
+            <div className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Desktop">
+              <div className="Projects-Subcontainer-Box-Checkbox"></div>Web
+              Design.
+            </div>
+            <div className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Desktop">
+              <div className="Projects-Subcontainer-Box-Checkbox"></div>
+              Branding.
+            </div>
+            <div className="Projects-Subcontainer-Box-Description Projects-Subcontainer-Box-Description-Desktop">
+              <div className="Projects-Subcontainer-Box-Checkbox"></div> Social
+              Media.
+            </div>
           </div>
         </div>
         <div className="Projects-More-Container">
