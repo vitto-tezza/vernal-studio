@@ -11,9 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavBar />
-        <Routes>
-          <Route path="/" element={<HomePage />}></Route>
-        </Routes>
+        <HomePage />
         <BannerUp />
         <Footer />
       </BrowserRouter>
