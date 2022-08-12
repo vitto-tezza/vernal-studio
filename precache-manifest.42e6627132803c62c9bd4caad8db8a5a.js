@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "c2aaf5726d9f53b181c7",
-    "url": "/vernal-studio/static/css/main.476c8a9b.chunk.css"
+    "revision": "7378431da60d90697afa",
+    "url": "/vernal-studio/static/css/main.7c8df249.chunk.css"
   },
   {
-    "revision": "c2aaf5726d9f53b181c7",
-    "url": "/vernal-studio/static/js/main.c2aaf572.chunk.js"
+    "revision": "7378431da60d90697afa",
+    "url": "/vernal-studio/static/js/main.7378431d.chunk.js"
   },
   {
-    "revision": "14b060c7915162ae1f5f",
-    "url": "/vernal-studio/static/js/1.14b060c7.chunk.js"
+    "revision": "9f6f6cec55adb720d38c",
+    "url": "/vernal-studio/static/js/1.9f6f6cec.chunk.js"
   },
   {
-    "revision": "306fe5e73d9451ea2aa2",
-    "url": "/vernal-studio/static/js/2.306fe5e7.chunk.js"
+    "revision": "6cc5d634ab71c74b2a62",
+    "url": "/vernal-studio/static/js/2.6cc5d634.chunk.js"
   },
   {
-    "revision": "662895899ab3c6bb03f0",
-    "url": "/vernal-studio/static/js/runtime~main.66289589.js"
+    "revision": "22c9318bf6126a085182",
+    "url": "/vernal-studio/static/js/runtime~main.22c9318b.js"
   },
   {
     "revision": "b1224daac2af8f432fb940eadb215cfa",
@@ -128,7 +128,7 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/footer-phone.0609d1fa.svg"
   },
   {
-    "revision": "3939a702861e9a11e27903530216c1db",
+    "revision": "b183d5c0b58911f6e77345109b569537",
     "url": "/vernal-studio/index.html"
   }
 ];
