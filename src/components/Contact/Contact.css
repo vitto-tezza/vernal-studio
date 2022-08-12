@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100%;
 }
 .container-contact-txt {
   height: 100%;
@@ -21,7 +20,6 @@
   font-weight: 400;
 }
 .contact-txt-span {
-  font-style: italic;
   font-weight: 600;
 }
 .container-contact-txt-last {
@@ -31,34 +29,56 @@
 .container-contact-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100%;
   margin-top: 1vw;
 }
 .contact-name {
+  font-size: 4vw;
   width: 85%;
   border: none;
-  margin: 5%;
-  border-bottom: 0.2vw solid #aaa;
+  margin: 3% 0;
+  padding: 1.5vw;
+  border-bottom: 0.2vw solid #888;
+  outline: none;
+}
+.contact-name::placeholder {
+  color: #999;
 }
 .contact-email {
+  font-size: 4vw;
   width: 85%;
   border: none;
-  margin: 5%;
-  border-bottom: 0.2vw solid #aaa;
+  margin: 3% 0;
+  padding: 1.5vw;
+  border-bottom: 0.2vw solid #888;
+  outline: none;
+}
+.contact-email::placeholder {
+  color: #999;
 }
 .contact-coment {
+  font-size: 4vw;
   width: 85%;
+  height: 22vw;
+  font-family: "Lexend Deca", sans-serif;
   border: none;
-  margin: 5%;
-  border-bottom: 0.2vw solid #aaa;
+  margin: 3% 0;
+  padding: 1.5vw;
+  border-bottom: 0.2vw solid #888;
+  resize: none;
+  outline: none;
+}
+.contact-coment::placeholder {
+  color: #999;
 }
 .contact-button-submit {
+  border: 2px solid black;
   border: none;
   background-color: transparent;
   cursor: pointer;
   margin-bottom: 8vw;
+  outline: none;
 }
 .contact-button-submit-img {
   width: 30vw;
@@ -67,60 +87,72 @@
   .container-contact {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 50vw;
+    align-items: flex-start;
+    padding-top: 15vw;
+    padding-bottom: 5vw;
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
   }
   .container-contact-txt {
-    height: 100%;
-    width: 65%;
-    margin: 10vw 0;
+    height: auto;
+    width: 50%;
+    margin: 0;
   }
   .container-contact-txt-title {
     font-size: 3.8vw;
     color: #8c32ff;
     font-weight: 600;
-    margin-top: 10vw;
-    margin-left: 16vw;
+    margin: 0;
   }
   .container-contact-txt-subtitle {
-    font-size: 3.6vw;
+    font-size: 2.9vw;
     font-weight: 400;
-    margin-left: 16vw;
+    margin: 2.5vw 0 2vw;
+    line-height: 110%;
   }
   .contact-txt-span {
-    font-style: italic;
     font-weight: 600;
   }
   .container-contact-txt-last {
-    font-size: 1.7vw;
+    font-size: 1.3vw;
     font-weight: 400;
-    margin-left: 16vw;
+    margin: 0;
   }
   .container-contact-form {
-    width: 40%;
-    margin-top: 18vw;
-    margin-right: 5vw;
+    width: 50%;
+    height: auto;
+    margin: 0;
+    padding-top: 3.7vw;
   }
   .contact-name {
+    font-size: 1.2vw;
+    font-weight: 400;
     width: 90%;
     border: none;
-    margin: 5%;
-    border-bottom: 0.2vw solid #aaa;
+    padding: 0.7vw 0.2vw;
+    border-bottom: 0.2vw solid #777;
   }
   .contact-email {
+    font-size: 1.2vw;
+    font-weight: 400;
     width: 90%;
     border: none;
-    margin: 5%;
-    border-bottom: 0.2vw solid #aaa;
+    padding: 0.7vw 0.2vw;
+    border-bottom: 0.2vw solid #777;
   }
   .contact-coment {
+    font-size: 1.2vw;
+    font-weight: 400;
     width: 90%;
+    height: 10vw;
     border: none;
-    margin: 5%;
-    border-bottom: 0.2vw solid #aaa;
+    padding: 0.7vw 0.2vw;
+    border-bottom: 0.2vw solid #777;
   }
   .contact-button-submit {
     margin-left: 26vw;
+    margin-bottom: 0;
     border: none;
     background-color: transparent;
     cursor: pointer;

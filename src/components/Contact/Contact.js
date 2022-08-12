@@ -30,14 +30,11 @@ const Contact = () => {
           name="inp_email"
           placeholder="cual es tu correo electronico?"
         />
-        <br />
-        <br />
         <textarea
           className="contact-coment"
           name="inp_mensaje"
           placeholder="comentanos sobre tu proyecto :)"
         ></textarea>
-        <br />
         <div>
           <button className="contact-button-submit" type="submit">
             <img
