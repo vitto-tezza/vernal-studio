@@ -76,12 +76,12 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/projects-tuespacio-bg.25c5ec62.png"
   },
   {
-    "revision": "a6f05b9f8b0d6b2fc7985a03b8ba13c0",
-    "url": "/vernal-studio/static/media/projects-daleplast-bg.a6f05b9f.png"
-  },
-  {
     "revision": "e6dc731ab6243d6d714510e62cf07f3e",
     "url": "/vernal-studio/static/media/projects-loop3-bg.e6dc731a.png"
+  },
+  {
+    "revision": "a6f05b9f8b0d6b2fc7985a03b8ba13c0",
+    "url": "/vernal-studio/static/media/projects-daleplast-bg.a6f05b9f.png"
   },
   {
     "revision": "19094b5dc2ce64f59d013bd060fa0edb",
