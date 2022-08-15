@@ -11,9 +11,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavBar />
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<HomePage />}></Route>
-        </Routes>
+        </Routes> */}
+        <HomePage />
         <BannerUp />
         <Footer />
       </BrowserRouter>
