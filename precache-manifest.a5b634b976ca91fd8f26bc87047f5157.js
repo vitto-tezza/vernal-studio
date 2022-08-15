@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "958f14c427bb602e2230",
-    "url": "/vernal-studio/static/css/main.aa9e97ab.chunk.css"
+    "revision": "51b68091b2afca341a26",
+    "url": "/vernal-studio/static/css/main.653834c5.chunk.css"
   },
   {
-    "revision": "958f14c427bb602e2230",
-    "url": "/vernal-studio/static/js/main.958f14c4.chunk.js"
+    "revision": "51b68091b2afca341a26",
+    "url": "/vernal-studio/static/js/main.51b68091.chunk.js"
   },
   {
     "revision": "14b060c7915162ae1f5f",
@@ -116,6 +116,10 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/bannerup-arrow.2e085238.svg"
   },
   {
+    "revision": "dce73346b769bf5acd6d5fe9a04550f4",
+    "url": "/vernal-studio/static/media/footer-in.dce73346.svg"
+  },
+  {
     "revision": "fbacd13a977a49be59e990f673834fad",
     "url": "/vernal-studio/static/media/footer-ig.fbacd13a.svg"
   },
@@ -124,15 +128,11 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/footer-behance.ff75875b.svg"
   },
   {
-    "revision": "dce73346b769bf5acd6d5fe9a04550f4",
-    "url": "/vernal-studio/static/media/footer-in.dce73346.svg"
-  },
-  {
     "revision": "0609d1fa49b0c3336bbca550c45b17e2",
     "url": "/vernal-studio/static/media/footer-phone.0609d1fa.svg"
   },
   {
-    "revision": "f9065b02ab405d2eec4aea7f46d98e44",
+    "revision": "050b4ee38fee3622bedf211f6a06016d",
     "url": "/vernal-studio/index.html"
   }
 ];

@@ -1,7 +1,7 @@
 {
-  "main.css": "/vernal-studio/static/css/main.aa9e97ab.chunk.css",
-  "main.js": "/vernal-studio/static/js/main.958f14c4.chunk.js",
-  "main.js.map": "/vernal-studio/static/js/main.958f14c4.chunk.js.map",
+  "main.css": "/vernal-studio/static/css/main.653834c5.chunk.css",
+  "main.js": "/vernal-studio/static/js/main.51b68091.chunk.js",
+  "main.js.map": "/vernal-studio/static/js/main.51b68091.chunk.js.map",
   "static/js/1.14b060c7.chunk.js": "/vernal-studio/static/js/1.14b060c7.chunk.js",
   "static/js/1.14b060c7.chunk.js.map": "/vernal-studio/static/js/1.14b060c7.chunk.js.map",
   "static/js/2.340f175f.chunk.js": "/vernal-studio/static/js/2.340f175f.chunk.js",
@@ -25,8 +25,8 @@
   "static/media/Chat.css": "/vernal-studio/static/media/chat-wsp.598f4782.svg",
   "static/media/BannerUp.css": "/vernal-studio/static/media/bannerup-arrow.2e085238.svg",
   "static/media/Footer.css": "/vernal-studio/static/media/footer-phone.0609d1fa.svg",
-  "static/css/main.aa9e97ab.chunk.css.map": "/vernal-studio/static/css/main.aa9e97ab.chunk.css.map",
+  "static/css/main.653834c5.chunk.css.map": "/vernal-studio/static/css/main.653834c5.chunk.css.map",
   "index.html": "/vernal-studio/index.html",
-  "precache-manifest.880b5945163f08d1d06506a319fc7493.js": "/vernal-studio/precache-manifest.880b5945163f08d1d06506a319fc7493.js",
+  "precache-manifest.a5b634b976ca91fd8f26bc87047f5157.js": "/vernal-studio/precache-manifest.a5b634b976ca91fd8f26bc87047f5157.js",
   "service-worker.js": "/vernal-studio/service-worker.js"
 }

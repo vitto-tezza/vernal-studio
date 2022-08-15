@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vernal-studio/precache-manifest.880b5945163f08d1d06506a319fc7493.js"
+  "/vernal-studio/precache-manifest.a5b634b976ca91fd8f26bc87047f5157.js"
 );
 
 workbox.clientsClaim();
