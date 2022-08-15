@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "7378431da60d90697afa",
-    "url": "/vernal-studio/static/css/main.7c8df249.chunk.css"
+    "revision": "bac2116ff1f0c1bf6ea4",
+    "url": "/vernal-studio/static/css/main.08d0a3cb.chunk.css"
   },
   {
-    "revision": "7378431da60d90697afa",
-    "url": "/vernal-studio/static/js/main.7378431d.chunk.js"
+    "revision": "bac2116ff1f0c1bf6ea4",
+    "url": "/vernal-studio/static/js/main.bac2116f.chunk.js"
   },
   {
     "revision": "9f6f6cec55adb720d38c",
     "url": "/vernal-studio/static/js/1.9f6f6cec.chunk.js"
   },
   {
-    "revision": "6cc5d634ab71c74b2a62",
-    "url": "/vernal-studio/static/js/2.6cc5d634.chunk.js"
+    "revision": "dc2c0caffedc1b472615",
+    "url": "/vernal-studio/static/js/2.dc2c0caf.chunk.js"
   },
   {
     "revision": "22c9318bf6126a085182",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/bannerup-dot.b1224daa.svg"
   },
   {
-    "revision": "d1273838a4ce1f708e1b5194964f86df",
-    "url": "/vernal-studio/static/media/foto-hero.d1273838.png"
+    "revision": "fda887e64852b9db8665eb77ed8b5700",
+    "url": "/vernal-studio/static/media/foto-hero.fda887e6.png"
   },
   {
     "revision": "54013e870807114f18c59739ea2e71c7",
@@ -60,12 +60,16 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/footer-logo.dc5cdac8.svg"
   },
   {
-    "revision": "b0e07b847464f2cdf00d1735a6da0f78",
-    "url": "/vernal-studio/static/media/projects-boxarrow.b0e07b84.svg"
+    "revision": "e8299da9ec47b44e36f5d2e211229299",
+    "url": "/vernal-studio/static/media/desplegable-wsp.e8299da9.svg"
   },
   {
     "revision": "e6ea4336442d4262a10c7c4fdf89af7a",
     "url": "/vernal-studio/static/media/projects-morearrow.e6ea4336.svg"
+  },
+  {
+    "revision": "b0e07b847464f2cdf00d1735a6da0f78",
+    "url": "/vernal-studio/static/media/projects-boxarrow.b0e07b84.svg"
   },
   {
     "revision": "c83413874c8deed7742d87c3d4d7ca05",
@@ -88,16 +92,16 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/aboutus-web-design.19094b5d.png"
   },
   {
+    "revision": "f40f7b067aeedd8212cf6e3d58e8e7fb",
+    "url": "/vernal-studio/static/media/creativeprocess-icon3.f40f7b06.svg"
+  },
+  {
     "revision": "4e9be66807a3ef38755491bcc94dcee6",
     "url": "/vernal-studio/static/media/creativeprocess-icon1.4e9be668.svg"
   },
   {
     "revision": "4898b7a73a588dfc513b415c174f47a3",
     "url": "/vernal-studio/static/media/creativeprocess-icon2.4898b7a7.svg"
-  },
-  {
-    "revision": "f40f7b067aeedd8212cf6e3d58e8e7fb",
-    "url": "/vernal-studio/static/media/creativeprocess-icon3.f40f7b06.svg"
   },
   {
     "revision": "375bd77c43baddbb70106e83f400cc4f",
@@ -116,10 +120,6 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/footer-ig.fbacd13a.svg"
   },
   {
-    "revision": "ff75875b19d43050b7edce29109a0ac0",
-    "url": "/vernal-studio/static/media/footer-behance.ff75875b.svg"
-  },
-  {
     "revision": "dce73346b769bf5acd6d5fe9a04550f4",
     "url": "/vernal-studio/static/media/footer-in.dce73346.svg"
   },
@@ -128,7 +128,11 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/footer-phone.0609d1fa.svg"
   },
   {
-    "revision": "b183d5c0b58911f6e77345109b569537",
+    "revision": "ff75875b19d43050b7edce29109a0ac0",
+    "url": "/vernal-studio/static/media/footer-behance.ff75875b.svg"
+  },
+  {
+    "revision": "93aa1668559da85a41c834c4e7f9b342",
     "url": "/vernal-studio/index.html"
   }
 ];
