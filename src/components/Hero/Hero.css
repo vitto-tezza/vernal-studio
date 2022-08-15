@@ -1,5 +1,5 @@
 .Hero {
-  padding: 12vw 0 82.7vw;
+  padding: 25vw 0 93.8vw;
 }
 .hero-container {
 }
@@ -17,7 +17,7 @@
   font-weight: 400;
 }
 .hero-description {
-  margin: 2.5vw 0 4.5vw;
+  margin: 2.5vw 0 8vw;
   font-size: 7.8vw;
   font-weight: 400;
 }
@@ -27,7 +27,7 @@
 }
 .hero-subtitle {
   margin: 0;
-  font-size: 4.1vw;
+  font-size: 3.8vw;
   font-weight: 600;
 }
 
@@ -38,7 +38,7 @@
 .Hero-Background-Image {
   position: absolute;
   right: 0;
-  top: 100vw;
+  bottom: 0;
   z-index: 1;
   width: 95vw;
 }

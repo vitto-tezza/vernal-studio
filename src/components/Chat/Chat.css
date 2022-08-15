@@ -1,16 +1,36 @@
 .Chat {
-  width: 16vw;
-  height: 16vw;
+  width: 17vw;
+  height: 17vw;
   border-radius: 200vw;
   position: fixed;
   bottom: 7vw;
-  right: 7vw;
+  right: 5vw;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  z-index: 600;
+  z-index: 6;
+  opacity: 0;
+
+  animation-name: chatAppears;
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+.Chat.ChatIsActive {
+  right: 5vw;
+}
+
+@keyframes chatAppears {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .Chat-X {
@@ -41,6 +61,12 @@
     height: auto;
     padding: 1vw 0;
     background-color: #fff;
+    transition: 0.3s;
+    will-change: right;
+  }
+
+  .Chat.ChatIsActive {
+    right: -25vw;
   }
 
   .Chat-X {
@@ -50,16 +76,32 @@
     display: flex;
     left: 0.5vw;
     top: 0.5vw;
+    z-index: 601;
+    cursor: pointer;
+    transition: 0.3s;
+    will-change: background-image;
     background-image: url(../../utils/images/chat-x.png);
     background-size: 90%;
     background-position: center;
     background-repeat: no-repeat;
   }
 
+  .Chat-X:hover {
+    background-image: url(../../utils/images/chat-x-active.png);
+  }
+
   .Chat-Image {
     width: 4.3vw;
     height: 4.3vw;
     margin-right: 1vw;
+    cursor: pointer;
+    transition: 0.3s;
+    will-change: box-shadow transform;
+  }
+
+  .Chat-Image:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.5);
   }
 
   .Chat-Subcontainer {

@@ -27,7 +27,7 @@ const Hero = () => {
           <h1 className="hero-title">- ¡Hola somos Vernal!</h1>
           <p className="hero-description">
             Un equipo <span className="hero-description-span">creativo</span>
-            <br></br> que busca la evolucion
+            <br></br> que busca la evolución
             <br></br>
             de tu proyecto.
           </p>
