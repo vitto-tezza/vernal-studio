@@ -2,7 +2,6 @@ import React, { useState } from "react";
 /*css*/
 import "./NavBar.css";
 /*images*/
-
 import logoVernalWhite from "../../utils/images/logo-vernal-white.png";
 import logoVernalBlack from "../../utils/images/logo-vernal-black.png";
 import flechaContactanos from "../../utils/images/flecha-contactanos.png";

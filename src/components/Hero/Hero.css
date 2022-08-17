@@ -38,9 +38,9 @@
 .Hero-Background-Image {
   position: absolute;
   right: 0;
-  bottom: 0;
+  top: 108.8vw;
   z-index: 1;
-  width: 95vw;
+  width: 95%;
 }
 @media screen and (min-width: 1199px) {
   .Hero {
@@ -101,6 +101,6 @@
   .Hero-Background-Image {
     width: 45%;
     right: 0;
-    bottom: -3vw;
+    top: 6.68vw;
   }
 }
