@@ -20,9 +20,13 @@ const Contact = () => {
 
   const enviarDatos = (event) => {
     event.preventDefault();
-    console.log(
+    /*console.log(
       datos.inp_name + " " + datos.inp_email + " " + datos.inp_mensaje
-    );
+    );*/
+    fetch("https://formsubmit.co/ajax/vittorio.tezza93@gmail.com", {
+      method: "post",
+      body: new FormData(event.target),
+    });
   };
 
   return (
