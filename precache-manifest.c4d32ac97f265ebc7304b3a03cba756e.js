@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "67eadaf1da750170e94c",
-    "url": "/vernal-studio/static/css/main.6ef28544.chunk.css"
+    "revision": "ff9ad3dfe0173541fa69",
+    "url": "/vernal-studio/static/css/main.1aa3d002.chunk.css"
   },
   {
-    "revision": "67eadaf1da750170e94c",
-    "url": "/vernal-studio/static/js/main.67eadaf1.chunk.js"
+    "revision": "ff9ad3dfe0173541fa69",
+    "url": "/vernal-studio/static/js/main.ff9ad3df.chunk.js"
   },
   {
-    "revision": "9f6f6cec55adb720d38c",
-    "url": "/vernal-studio/static/js/1.9f6f6cec.chunk.js"
+    "revision": "325ca37fb911515c36cd",
+    "url": "/vernal-studio/static/js/1.325ca37f.chunk.js"
   },
   {
-    "revision": "834957b1dd8d0178e28f",
-    "url": "/vernal-studio/static/js/2.834957b1.chunk.js"
+    "revision": "4ed0e293ba4c6b4f46be",
+    "url": "/vernal-studio/static/js/2.4ed0e293.chunk.js"
   },
   {
-    "revision": "22c9318bf6126a085182",
-    "url": "/vernal-studio/static/js/runtime~main.22c9318b.js"
+    "revision": "daa2ced441646c32f640",
+    "url": "/vernal-studio/static/js/runtime~main.daa2ced4.js"
   },
   {
     "revision": "b1224daac2af8f432fb940eadb215cfa",
@@ -64,20 +64,20 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/desplegable-wsp.e8299da9.svg"
   },
   {
-    "revision": "b0e07b847464f2cdf00d1735a6da0f78",
-    "url": "/vernal-studio/static/media/projects-boxarrow.b0e07b84.svg"
-  },
-  {
     "revision": "e6ea4336442d4262a10c7c4fdf89af7a",
     "url": "/vernal-studio/static/media/projects-morearrow.e6ea4336.svg"
   },
   {
-    "revision": "25c5ec62af790df448ab2b650ec646bc",
-    "url": "/vernal-studio/static/media/projects-tuespacio-bg.25c5ec62.png"
+    "revision": "b0e07b847464f2cdf00d1735a6da0f78",
+    "url": "/vernal-studio/static/media/projects-boxarrow.b0e07b84.svg"
   },
   {
     "revision": "c83413874c8deed7742d87c3d4d7ca05",
     "url": "/vernal-studio/static/media/projects-maderotango-bg.c8341387.png"
+  },
+  {
+    "revision": "25c5ec62af790df448ab2b650ec646bc",
+    "url": "/vernal-studio/static/media/projects-tuespacio-bg.25c5ec62.png"
   },
   {
     "revision": "e6dc731ab6243d6d714510e62cf07f3e",
@@ -132,7 +132,7 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/footer-phone.0609d1fa.svg"
   },
   {
-    "revision": "b1ddf0a3ff264b6fe70098053300cdec",
+    "revision": "39dec1597abffefddf3f9c275c3651e6",
     "url": "/vernal-studio/index.html"
   }
 ];
