@@ -141,6 +141,12 @@
   .Footer-Menu {
     font-size: 1.25vw;
     margin-top: 0.2vw;
+    transition: 0.3s;
+    will-change: color;
+  }
+
+  .Footer-Menu:hover {
+    color: #8c32ff;
   }
 
   .Footer-Text {
@@ -158,9 +164,15 @@
     height: 2.3vw;
   }
 
+  .Media-Links-Image:hover {
+    background-color: #8c32ff;
+  }
+
   .Media-Links-Image {
     background-color: rgba(0, 0, 0, 0);
     border: 0.15vw solid #8c32ff;
+    transition: 0.3s;
+    will-change: background-color;
   }
 
   .Phone-Number {

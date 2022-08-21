@@ -32,15 +32,15 @@ const AboutUs = () => {
             Web Design.{" "}
             <div className="AboutUs-Subcontainer-Area-Checkbox"></div>
           </div>
-          <div className="AboutUs-Subcontainer-Image"></div>
+          <div className="AboutUs-Subcontainer-Image AboutUs-Web-Design"></div>
         </div>
-        <div className="AboutUs-Subcontainer">
+        {/* <div className="AboutUs-Subcontainer">
           <div className="AboutUs-Subcontainer-Area">
             Digital Content.{" "}
             <div className="AboutUs-Subcontainer-Area-Checkbox"></div>
           </div>
           <div className="AboutUs-Subcontainer-Image"></div>
-        </div>
+        </div> */}
         <div className="AboutUs-Subcontainer">
           <div className="AboutUs-Subcontainer-Area">
             Social Media.{" "}
@@ -52,7 +52,7 @@ const AboutUs = () => {
           <div className="AboutUs-Subcontainer-Area">
             UX/UI <div className="AboutUs-Subcontainer-Area-Checkbox"></div>
           </div>
-          <div className="AboutUs-Subcontainer-Image"></div>
+          <div className="AboutUs-Subcontainer-Image AboutUs-UxUi"></div>
         </div>
       </div>
       <div className="Background-Circle Circle-1"></div>

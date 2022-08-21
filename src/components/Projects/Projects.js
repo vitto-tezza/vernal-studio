@@ -7,6 +7,23 @@ import LogoDaleplast from "../../utils/images/projects-daleplast-logo.png";
 import LogoTuEspacio from "../../utils/images/projects-tuespacio-logo.svg";
 
 const Projects = () => {
+  window.addEventListener("scroll", function() {
+    var animate = document.querySelectorAll(".animate");
+
+    for (let i = 0; i < animate.length; i++) {
+      let altura = window.innerHeight / 1.7;
+
+      let distancia = animate[i].getBoundingClientRect().top;
+
+      if (distancia <= altura) {
+        animate[i].classList.remove(
+          "Projects-ScrollAnimation",
+          "Projects-ScrollAnimation-Arrow"
+        );
+      }
+    }
+  });
+
   return (
     <div className="Projects" id="Projects">
       <div className="Projects-Container">
@@ -20,7 +37,11 @@ const Projects = () => {
           <p className="Projects-Title Projects-Title-3">
             innovadores y con carácter.
           </p>
-          <img className="Projects-Arrow" src={ProjectsArrow}></img>
+          <img
+            className="Projects-Arrow Projects-ScrollAnimation-Arrow animate"
+            src={ProjectsArrow}
+            alt="arrow"
+          ></img>
           <p className="Projects-Subtitle">- Es mejor si te lo mostramos:</p>
         </div>
         <div className="Projects-Subcontainer">
@@ -133,7 +154,8 @@ const Projects = () => {
           </div>
         </div>
         <div className="Projects-More-Container">
-          Ver más <div className="Projects-More-Button"></div>
+          <p className="Projects-More-Text">Ver más</p>{" "}
+          <div className="Projects-More-Button"></div>
         </div>
       </div>
     </div>

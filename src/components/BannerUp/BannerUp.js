@@ -9,37 +9,37 @@ const BannerUp = () => {
         <div className="BannerUp-Slider">
           <img
             src={BannerUpDot}
-            alt="slider-image"
+            alt="slider"
             className="BannerUp-Slider-Image"
           ></img>
           <p className="BannerUp-Slider-Text">Evolucionemos juntos</p>
           <img
             src={BannerUpDot}
-            alt="slider-image"
+            alt="slider"
             className="BannerUp-Slider-Image"
           ></img>
           <p className="BannerUp-Slider-Text">Evolucionemos juntos</p>
           <img
             src={BannerUpDot}
-            alt="slider-image"
+            alt="slider"
             className="BannerUp-Slider-Image"
           ></img>
           <p className="BannerUp-Slider-Text">Evolucionemos juntos</p>
           <img
             src={BannerUpDot}
-            alt="slider-image"
+            alt="slider"
             className="BannerUp-Slider-Image"
           ></img>
           <p className="BannerUp-Slider-Text">Evolucionemos juntos</p>
           <img
             src={BannerUpDot}
-            alt="slider-image"
+            alt="slider"
             className="BannerUp-Slider-Image"
           ></img>
           <p className="BannerUp-Slider-Text">Evolucionemos juntos</p>
           <img
             src={BannerUpDot}
-            alt="slider-image"
+            alt="slider"
             className="BannerUp-Slider-Image"
           ></img>
           <p className="BannerUp-Slider-Text">Evolucionemos juntos</p>

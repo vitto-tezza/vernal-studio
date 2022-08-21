@@ -162,6 +162,42 @@
     padding: 2.4vw 1.5vw 1vw;
     border-radius: 1.8vw;
     margin: 1.3vw 0;
+    transition: 0.5s;
+    will-change: transform background-color;
+  }
+
+  .CreativeProcess-Box:hover {
+    transform: scale(1.1);
+    background-color: #8c32ff;
+  }
+
+  .CreativeProcess-Box:hover .CreativeProcess-Box-Icon-Figure {
+    background-color: #65e0b1;
+  }
+
+  .CreativeProcess-Box:hover .CreativeProcess-Figure-1 {
+    background-image: url(../../utils/images/creativeprocess-icon1a.svg);
+  }
+  .CreativeProcess-Box:hover .CreativeProcess-Figure-2 {
+    background-image: url(../../utils/images/creativeprocess-icon2a.svg);
+  }
+  .CreativeProcess-Box:hover .CreativeProcess-Figure-3 {
+    background-image: url(../../utils/images/creativeprocess-icon3a.svg);
+  }
+  .CreativeProcess-Box:hover .CreativeProcess-Figure-4 {
+    background-image: url(../../utils/images/creativeprocess-icon4a.svg);
+  }
+
+  .CreativeProcess-Box:hover .CreativeProcess-Box-Number {
+    color: #fff;
+  }
+
+  .CreativeProcess-Box:hover .CreativeProcess-Box-Title {
+    color: #000;
+  }
+
+  .CreativeProcess-Box:hover .CreativeProcess-Box-Description {
+    color: #fff;
   }
 
   .CreativeProcess-Box-Icon {
@@ -169,20 +205,28 @@
     height: 5vw;
     right: -0.7vw;
     top: -0.7vw;
+    transition: 0.5s;
   }
 
   .CreativeProcess-Box-Icon-Figure {
     border: 0.25vw solid #65e0b1;
+    transition: 0.5s;
+    will-change: background-image background background-color;
   }
 
   .CreativeProcess-Box-Number {
     font-size: 1.3vw;
     margin: 0;
+    color: #8c32ff;
+    transition: 0.5s;
+    will-change: color;
   }
 
   .CreativeProcess-Box-Title {
     font-size: 1.4vw;
     margin: 0.5vw 0;
+    transition: 0.5s;
+    will-change: color;
   }
 
   .CreativeProcess-Box-Description {
@@ -190,6 +234,8 @@
     margin: 1vw 0 0;
     font-weight: 300;
     line-height: 160%;
+    transition: 0.5s;
+    will-change: color;
   }
 
   .CreativeProcess-Box-Description-Desktop {

@@ -3,7 +3,7 @@ import "./CreativeProcess.css";
 import Background from "../../utils/images/creativeprocess-bg.png";
 const creativeProcess = () => {
   return (
-    <div className="CreativeProcess">
+    <div className="CreativeProcess" id="CreativeProcess">
       <div className="CreativeProcess-Title-Container">
         <p className="CreativeProcess-Title-Description">
           - Conocé nuestro proceso creativo

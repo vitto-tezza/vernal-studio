@@ -205,6 +205,12 @@
   margin-bottom: 32vw;
   border-bottom: 0.2vw solid #666;
 }
+
+.txt-desplegable-link {
+  text-decoration: none;
+  pointer-events: none;
+  width: 100%;
+}
 .txt-desplegable-1 {
   color: #ffffff;
   margin: 0;
@@ -225,25 +231,29 @@
 }
 .container-desplegable-contactanos {
   width: 100%;
-  background-color: #1a1a1a;
+  background-color: #131313;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 30vw;
   position: absolute;
-  box-shadow: 0 0 5vw 1vw rgba(26, 26, 26, 1);
   bottom: 0;
+  text-decoration: none;
 }
 .desplegable-contactanos {
   color: #c09bfc;
   font-size: 4vw;
   margin: 0 0 0 3vw;
 }
+
 .desplegable-contactanos-flecha {
   width: 5vw;
-  padding: 0;
-  margin: 0.5vw 0 0 4vw;
-  transform: rotate(-90deg);
+  height: 5vw;
+  margin: 0 0 0 4vw;
+  background-image: url(../../utils/images/header-concact-arrowma.svg);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 1199px) {
@@ -264,6 +274,7 @@
     padding: 0.1vw;
     margin-left: 4vw;
     margin-top: 2.5vw;
+    cursor: pointer;
   }
 
   .menu-button-span {
@@ -365,19 +376,39 @@
     display: none;
   }
   .txt-desplegable {
-    width: 33%;
-    top: 6.5vw;
-    position: absolute;
-    right: 0vw;
+    width: 100%;
+    margin: 0;
+    height: 100%;
     padding: 0;
+    z-index: 6;
     border-bottom: none;
     background-image: url(../../utils/images/desplegable-wsp.svg);
     background-size: 23%;
     background-repeat: no-repeat;
     background-position: right center;
   }
+
+  .txt-desplegable:hover .txt-desplegable-tel {
+    color: #8c32ff;
+  }
+  .txt-desplegable-link {
+    pointer-events: all;
+    position: absolute;
+    right: 0vw;
+    padding: 0;
+    width: 33%;
+    height: 5vw;
+    top: 6.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 6;
+  }
+
   .txt-desplegable-1 {
     font-size: 1vw;
+    z-index: 6;
   }
   .txt-desplegable-2 {
     font-size: 1vw;
@@ -388,14 +419,15 @@
     font-size: 1vw;
     padding-left: 5.9vw;
     font-weight: 200;
-    color: white;
+    transition: 0.3s;
+    color: #fff;
   }
   .container-desplegable-contactanos {
-    width: 80%;
+    width: 38%;
     height: auto;
     padding: 0;
     background-color: #131313;
-    margin: 3vw auto 0;
+    margin: 3vw 0 0 10%;
     box-shadow: none;
     position: relative;
     justify-content: flex-start;
@@ -404,11 +436,23 @@
   .desplegable-contactanos {
     color: #c09bfc;
     font-size: 1.9vw;
+    transition: 0.3s;
   }
   .desplegable-contactanos-flecha {
     width: 1.7vw;
+    height: 1.7vw;
     margin-left: 2vw;
-    padding: 0;
-    transform: rotateZ(0deg);
+    transition: 0.3s;
+    background-image: url(../../utils/images/header-contact-arrowd.svg);
+    will-change: transform background background-image;
+  }
+
+  .container-desplegable-contactanos:hover .desplegable-contactanos {
+    color: #8c32ff;
+  }
+
+  .container-desplegable-contactanos:hover .desplegable-contactanos-flecha {
+    background-image: url(../../utils/images/header-contact-arrowda.svg);
+    transform: translateY(0.7vw);
   }
 }

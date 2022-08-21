@@ -9,16 +9,18 @@ const Chat = () => {
   };
 
   return (
-    <a className={`Chat ${chat ? "ChatIsActive" : ""}`} id="Chat">
+    <div className={`Chat ${chat ? "ChatIsActive" : ""}`} id="Chat">
       <div className="Chat-X" onClick={toggleChat}></div>
-      <div className="Chat-Image"></div>
+      <a href="https://wa.me/5491164572427" target="_blank">
+        <div className="Chat-Image"></div>
+      </a>
       <div className="Chat-Subcontainer">
         <p className="Chat-Text">- ¿En qué podemos ayudarte?</p>
         <p className="Chat-Title">
           ¡Hacenos tu consulta <br></br>por WhatsApp!
         </p>
       </div>
-    </a>
+    </div>
   );
 };
 

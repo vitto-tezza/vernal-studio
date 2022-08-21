@@ -26,8 +26,17 @@
 }
 
 .Projects-Arrow {
-  width: 6vw;
-  margin: 4vw 0 4vw;
+  width: 7vw;
+  margin: 10vw 0 2vw;
+  opacity: 1;
+  transition: 1s;
+  will-change: transform opacity margin;
+}
+
+.Projects-ScrollAnimation-Arrow {
+  opacity: 0.5;
+  transform: scale(0.8);
+  margin: 2vw 0 10vw;
 }
 .Projects-Subtitle {
   color: white;
@@ -164,6 +173,12 @@
 
   .Projects-Arrow {
     width: 2vw;
+    margin: 3vw 0 1.5vw;
+  }
+
+  .Projects-ScrollAnimation-Arrow {
+    opacity: 0.5;
+    transform: scale(0.8);
     margin: 1.5vw 0 3vw;
   }
 
@@ -182,10 +197,36 @@
     position: relative;
     margin-top: 0;
     padding-bottom: 2vw;
+    cursor: pointer;
+  }
+
+  .Projects-Subcontainer-Box:hover .Projects-Subcontainer-Box-Image {
+    border-top-left-radius: 7vw;
+    border-bottom-right-radius: 7vw;
+  }
+
+  .Projects-Subcontainer-Box:hover .Projects-Subcontainer-Box-Button {
+    background-image: url(../../utils/images/projects-morearrowa.svg);
+    transform: rotateZ(-90deg);
+  }
+
+  .Projects-Subcontainer-Box:hover .Projects-Subcontainer-Box-Title {
+    color: #8c32ff;
+  }
+
+  .Projects-Subcontainer-Box:hover .Projects-Subcontainer-Box-Checkbox {
+    background-color: #65e0b1;
+  }
+
+  .Projects-Subcontainer-Box:hover
+    .Projects-Subcontainer-Box-Description-Desktop {
+    color: #fff;
   }
 
   .Projects-Subcontainer-Box-Image {
     height: 32vw;
+    transition: 0.3s;
+    will-change: border-radius;
   }
 
   .Projects-Subcontainer-Box-Button {
@@ -198,16 +239,22 @@
     position: absolute;
     top: 34.1vw;
     right: 0;
+    transition: 0.3s;
+    transform: rotateZ(0deg);
+    will-change: background-image transform;
   }
 
   .Projects-Subcontainer-Box-Title {
     font-size: 2.1vw;
     margin: 2vw 0 0.5vw;
     width: 100%;
+    color: #fff;
+    transition: 0.3s;
+    will-change: color;
   }
 
   .Projects-Subcontainer-Box-Description {
-    font-size: 0.85vw;
+    font-size: 0.95vw;
     width: 100%;
     margin: 0;
     font-style: normal;
@@ -222,24 +269,53 @@
   .Projects-Subcontainer-Box-Description-Desktop {
     display: flex;
     align-items: center;
+    transition: 0.3s;
+    will-change: color;
   }
 
   .Projects-Subcontainer-Box-Checkbox {
     width: 0.35vw;
     height: 0.35vw;
-    margin-right: 0.3vw;
+    margin-right: 0.5vw;
     background-color: #999;
     border-radius: 100vw;
+    transition: 0.3s;
+    will-change: background;
   }
 
   .Projects-More-Container {
     font-size: 1.8vw;
+    position: relative;
     margin-top: 1vw;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .Projects-More-Text {
+    z-index: 2;
+    transform: translateX(-1.5vw);
+    transition: 0.3s;
+    margin: 0;
+    will-change: transform;
   }
 
   .Projects-More-Button {
     width: 3.8vw;
     height: 3.8vw;
-    margin-left: 2.5vw;
+    background-size: 1.2vw;
+    position: absolute;
+    right: 35%;
+    z-index: 1;
+    transition: 0.3s;
+    will-change: width background-position background background-size;
+  }
+
+  .Projects-More-Container:hover .Projects-More-Button {
+    width: 16vw;
+    background-position: 85% center;
+    background-size: 1.4vw;
+  }
+  .Projects-More-Container:hover .Projects-More-Text {
+    transform: translateX(0);
   }
 }

@@ -122,8 +122,17 @@
     margin-top: 3vw;
   }
 
+  .BannerUp-Button:hover .BannerUp-Button-Image {
+    background-size: 40%;
+    background-position: center top;
+    background-image: url(../../utils/images/bannerup-arrowa.svg);
+  }
+
   .BannerUp-Button-Image {
     background-color: rgba(0, 0, 0, 0);
+    will-change: background-position background-image;
+    transition: 0.3s;
+    border-radius: 0;
   }
 
   @keyframes BannerUpSlider {

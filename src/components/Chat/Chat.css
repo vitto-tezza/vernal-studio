@@ -12,7 +12,7 @@
   overflow: hidden;
   z-index: 6;
   opacity: 0;
-
+  text-decoration: none;
   animation-name: chatAppears;
   animation-duration: 1s;
   animation-delay: 4s;
@@ -100,8 +100,8 @@
   }
 
   .Chat-Image:hover {
-    transform: scale(1.07);
-    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.5);
+    transform: scale(1.04);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   }
 
   .Chat-Subcontainer {
