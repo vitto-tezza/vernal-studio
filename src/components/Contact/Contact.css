@@ -72,16 +72,36 @@
 .contact-coment::placeholder {
   color: #999;
 }
+.contact-button-container {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 2vw auto 15vw;
+}
 .contact-button-submit {
-  border: 2px solid black;
+  color: #000;
   border: none;
   background-color: transparent;
-  cursor: pointer;
-  margin-bottom: 8vw;
-  outline: none;
+  font-size: 100%;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 5vw auto 0;
 }
 .contact-button-submit-img {
-  width: 30vw;
+  width: 14vw;
+  height: 14vw;
+  margin-left: 2.5vw;
+  background-color: #8c32ff;
+  border-radius: 100vw;
+  background-image: url(../../utils/images/projects-morearrow.svg);
+  background-size: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 @media screen and (min-width: 1199px) {
   .container-contact {
@@ -151,14 +171,20 @@
     margin-bottom: 3vw;
     border-bottom: 0.2vw solid #777;
   }
+  .contact-button-container {
+    margin-top: -0.5vw;
+    margin-right: -3.6vw;
+    margin-bottom: 3vw;
+  }
   .contact-button-submit {
-    margin-left: 26vw;
-    margin-bottom: 0;
-    border: none;
-    background-color: transparent;
+    font-size: 1.8vw;
+    margin-top: 1vw;
     cursor: pointer;
   }
   .contact-button-submit-img {
-    width: 8vw;
+    width: 3.8vw;
+    height: 3.8vw;
+    margin-left: 2.5vw;
+    cursor: pointer;
   }
 }

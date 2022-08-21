@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 /*css*/
 import "./Contact.css";
-/*images*/
-import buttonContact from "../../utils/images/button-contact.png";
 
 const Contact = () => {
   const [datos, setDatos] = useState({
@@ -20,12 +18,14 @@ const Contact = () => {
 
   const enviarDatos = (event) => {
     event.preventDefault();
-    /*console.log(
-      datos.inp_name + " " + datos.inp_email + " " + datos.inp_mensaje
-    );*/
     fetch("https://formsubmit.co/ajax/vittorio.tezza93@gmail.com", {
       method: "post",
       body: new FormData(event.target),
+    });
+    setDatos({
+      inp_name: "",
+      inp_email: "",
+      inp_mensaje: "",
     });
   };
 
@@ -54,6 +54,7 @@ const Contact = () => {
           name="inp_name"
           placeholder="¿Cuál es tu nombre?"
           onChange={handleInputChange}
+          value={datos.inp_name}
           required
         />
         <input
@@ -62,6 +63,7 @@ const Contact = () => {
           name="inp_email"
           placeholder="¿Cuál es tu correo electrónico?"
           onChange={handleInputChange}
+          value={datos.inp_email}
           required
         />
         <textarea
@@ -69,14 +71,12 @@ const Contact = () => {
           name="inp_mensaje"
           placeholder="Contanos sobre tu proyecto :)"
           onChange={handleInputChange}
+          value={datos.inp_mensaje}
           required
         ></textarea>
-        <div>
+        <div className="contact-button-container">
           <button className="contact-button-submit" type="submit" id="submit">
-            <img
-              className="contact-button-submit-img"
-              src={buttonContact}
-            ></img>
+            Enviar <div className="contact-button-submit-img"></div>
           </button>
         </div>
       </form>
