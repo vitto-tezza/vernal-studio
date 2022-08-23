@@ -18,7 +18,7 @@ const Contact = () => {
 
   const enviarDatos = (event) => {
     event.preventDefault();
-    fetch("https://formsubmit.co/ajax/vittorio.tezza93@gmail.com", {
+    fetch("https://formsubmit.co/ajax/noguessofia@gmail.com", {
       method: "post",
       body: new FormData(event.target),
     });
