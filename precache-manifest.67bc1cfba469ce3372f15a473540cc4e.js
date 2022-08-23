@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4435c903b31d9645a6dc",
-    "url": "/vernal-studio/static/css/main.396d70c3.chunk.css"
+    "revision": "00059205a73108fa9536",
+    "url": "/vernal-studio/static/css/main.20aa722d.chunk.css"
   },
   {
-    "revision": "4435c903b31d9645a6dc",
-    "url": "/vernal-studio/static/js/main.4435c903.chunk.js"
+    "revision": "00059205a73108fa9536",
+    "url": "/vernal-studio/static/js/main.00059205.chunk.js"
   },
   {
     "revision": "269d177dfa7b1bf5e155",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/hero-image-be.de4d5d41.svg"
   },
   {
-    "revision": "3438f7cd27e33b811ea4d333b998ffa5",
-    "url": "/vernal-studio/static/media/hero-image-ig.3438f7cd.svg"
+    "revision": "e332b1ccf0176471f79ba621bd013a6d",
+    "url": "/vernal-studio/static/media/hero-image-iga.e332b1cc.svg"
   },
   {
     "revision": "fa638ca7eb547c25a5a45548dbd08103",
@@ -92,24 +92,24 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/hero-image-bea.586d6f30.svg"
   },
   {
-    "revision": "e332b1ccf0176471f79ba621bd013a6d",
-    "url": "/vernal-studio/static/media/hero-image-iga.e332b1cc.svg"
-  },
-  {
     "revision": "38f0e6dadcd1b48f8d1ef8ef6ed316b0",
     "url": "/vernal-studio/static/media/hero-image-ina.38f0e6da.svg"
+  },
+  {
+    "revision": "3438f7cd27e33b811ea4d333b998ffa5",
+    "url": "/vernal-studio/static/media/hero-image-ig.3438f7cd.svg"
   },
   {
     "revision": "e6ea4336442d4262a10c7c4fdf89af7a",
     "url": "/vernal-studio/static/media/projects-morearrow.e6ea4336.svg"
   },
   {
-    "revision": "6e6862b2be5a0d1f2d0dae4ad4f804af",
-    "url": "/vernal-studio/static/media/projects-morearrowa.6e6862b2.svg"
-  },
-  {
     "revision": "b0e07b847464f2cdf00d1735a6da0f78",
     "url": "/vernal-studio/static/media/projects-boxarrow.b0e07b84.svg"
+  },
+  {
+    "revision": "6e6862b2be5a0d1f2d0dae4ad4f804af",
+    "url": "/vernal-studio/static/media/projects-morearrowa.6e6862b2.svg"
   },
   {
     "revision": "25c5ec62af790df448ab2b650ec646bc",
@@ -136,12 +136,16 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/aboutus-uxui.92a90b14.png"
   },
   {
-    "revision": "4e9be66807a3ef38755491bcc94dcee6",
-    "url": "/vernal-studio/static/media/creativeprocess-icon1.4e9be668.svg"
+    "revision": "375bd77c43baddbb70106e83f400cc4f",
+    "url": "/vernal-studio/static/media/creativeprocess-icon4.375bd77c.svg"
   },
   {
     "revision": "f40f7b067aeedd8212cf6e3d58e8e7fb",
     "url": "/vernal-studio/static/media/creativeprocess-icon3.f40f7b06.svg"
+  },
+  {
+    "revision": "4e9be66807a3ef38755491bcc94dcee6",
+    "url": "/vernal-studio/static/media/creativeprocess-icon1.4e9be668.svg"
   },
   {
     "revision": "4898b7a73a588dfc513b415c174f47a3",
@@ -150,10 +154,6 @@ self.__precacheManifest = [
   {
     "revision": "1ff6f71b3a215abe50a291ab5547eb6a",
     "url": "/vernal-studio/static/media/creativeprocess-icon1a.1ff6f71b.svg"
-  },
-  {
-    "revision": "375bd77c43baddbb70106e83f400cc4f",
-    "url": "/vernal-studio/static/media/creativeprocess-icon4.375bd77c.svg"
   },
   {
     "revision": "bf926db7d1b2b4fc12a3b8e3e24f9015",
@@ -172,31 +172,31 @@ self.__precacheManifest = [
     "url": "/vernal-studio/static/media/chat-wsp.598f4782.svg"
   },
   {
-    "revision": "7d1f1c7c038cdbbc335e1dab0f1ea18e",
-    "url": "/vernal-studio/static/media/bannerup-arrowa.7d1f1c7c.svg"
-  },
-  {
     "revision": "2e085238b20061f59cbb5b888a047be5",
     "url": "/vernal-studio/static/media/bannerup-arrow.2e085238.svg"
   },
   {
-    "revision": "dce73346b769bf5acd6d5fe9a04550f4",
-    "url": "/vernal-studio/static/media/footer-in.dce73346.svg"
-  },
-  {
-    "revision": "ff75875b19d43050b7edce29109a0ac0",
-    "url": "/vernal-studio/static/media/footer-behance.ff75875b.svg"
+    "revision": "7d1f1c7c038cdbbc335e1dab0f1ea18e",
+    "url": "/vernal-studio/static/media/bannerup-arrowa.7d1f1c7c.svg"
   },
   {
     "revision": "fbacd13a977a49be59e990f673834fad",
     "url": "/vernal-studio/static/media/footer-ig.fbacd13a.svg"
   },
   {
+    "revision": "ff75875b19d43050b7edce29109a0ac0",
+    "url": "/vernal-studio/static/media/footer-behance.ff75875b.svg"
+  },
+  {
+    "revision": "dce73346b769bf5acd6d5fe9a04550f4",
+    "url": "/vernal-studio/static/media/footer-in.dce73346.svg"
+  },
+  {
     "revision": "0609d1fa49b0c3336bbca550c45b17e2",
     "url": "/vernal-studio/static/media/footer-phone.0609d1fa.svg"
   },
   {
-    "revision": "b1cc8a831daa901c1262d97569ffed66",
+    "revision": "cfb358a1a266408d54c18790b6d4b73c",
     "url": "/vernal-studio/index.html"
   }
 ];
