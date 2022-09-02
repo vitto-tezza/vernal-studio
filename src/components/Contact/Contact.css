@@ -12,20 +12,22 @@
   margin: 10vw 0;
 }
 .container-contact-txt-title {
-  font-size: 9vw;
+  font-size: 9.5vw;
   color: #8c32ff;
   font-weight: 600;
+  margin-bottom: 0;
 }
 .container-contact-txt-subtitle {
-  font-size: 6.6vw;
+  font-size: 7vw;
   font-weight: 400;
 }
 .contact-txt-span {
   font-weight: 600;
 }
 .container-contact-txt-last {
-  font-size: 3.4vw;
+  font-size: 4vw;
   font-weight: 400;
+  margin-bottom: -3vw;
 }
 .container-contact-form {
   display: flex;
@@ -37,10 +39,11 @@
 .contact-name {
   font-size: 4vw;
   width: 85%;
+  font-family: "Lexend Deca", sans-serif;
   border: none;
   margin: 3% 0;
   padding: 1.5vw;
-  border-bottom: 0.2vw solid #888;
+  border-bottom: 0.1vw solid #000;
   outline: none;
 }
 .contact-name::placeholder {
@@ -50,9 +53,10 @@
   font-size: 4vw;
   width: 85%;
   border: none;
+  font-family: "Lexend Deca", sans-serif;
   margin: 3% 0;
   padding: 1.5vw;
-  border-bottom: 0.2vw solid #888;
+  border-bottom: 0.1vw solid #000;
   outline: none;
 }
 .contact-email::placeholder {
@@ -66,7 +70,7 @@
   border: none;
   margin: 3% 0;
   padding: 1.5vw;
-  border-bottom: 0.2vw solid #888;
+  border-bottom: 0.1vw solid #000;
   resize: none;
   outline: none;
 }
@@ -85,7 +89,7 @@
   color: #000;
   border: none;
   background-color: transparent;
-  font-size: 100%;
+  font-size: 5vw;
   font-weight: 600;
   display: flex;
   justify-content: center;
@@ -142,7 +146,6 @@
     font-size: 3.4vw;
     color: #8c32ff;
     font-weight: 600;
-    margin: 0;
   }
   .container-contact-txt-subtitle {
     font-size: 2.9vw;
@@ -165,30 +168,30 @@
     padding-top: 3.7vw;
   }
   .contact-name {
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     font-weight: 400;
     width: 90%;
     border: none;
     padding: 0.7vw 0.2vw;
-    border-bottom: 0.2vw solid #777;
+    border-bottom: 0.1vw solid #000;
   }
   .contact-email {
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     font-weight: 400;
     width: 90%;
     border: none;
     padding: 0.7vw 0.2vw;
-    border-bottom: 0.2vw solid #777;
+    border-bottom: 0.1vw solid #000;
   }
   .contact-coment {
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     font-weight: 400;
     width: 90%;
     height: 10vw;
     border: none;
     padding: 0.7vw 0.2vw;
     margin-bottom: 3vw;
-    border-bottom: 0.2vw solid #777;
+    border-bottom: 0.1vw solid #000;
   }
   .contact-button-container {
     margin-top: -0.5vw;
