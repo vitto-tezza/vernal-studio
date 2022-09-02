@@ -97,7 +97,7 @@ function NavBar() {
             <div className="txt-desplegable">
               <p className="txt-desplegable-1">Estudio creativo de diseno</p>
               <p className="txt-desplegable-2">Buenos Aires, Argentina.</p>
-              <p className="txt-desplegable-tel">+54 9112345678</p>
+              <p className="txt-desplegable-tel">+54 9 1164572427</p>
             </div>
           </a>
           <a

@@ -64,6 +64,7 @@
   height: 65%;
   margin: 0;
   border-radius: 100vw;
+
   border: 0.5vw solid #65e0b1;
 }
 
@@ -120,6 +121,7 @@
 
 .Background-Image-Container-Desktop {
   display: none;
+  border: 2px solid red;
 }
 
 @media screen and (min-width: 767px) {
@@ -250,11 +252,51 @@
     position: absolute;
     display: flex;
     bottom: -5vw;
-    margin-left: -20%;
-    width: 60%;
+    margin-left: 0;
+    width: 40%;
+    overflow: hidden;
+  }
+
+  .Background-Image-Desktop1 {
+    margin: 0;
+    width: 55%;
+    margin-left: -30%;
+  }
+
+  .Background-Image-Desktop2 {
+    margin: 0;
+    width: 24vw;
+    margin-left: -1vw;
+    margin-top: -1.3vw;
+    z-index: 3;
   }
 
   .Background-Image-Desktop {
     width: 100%;
+  }
+
+  .Circle-One {
+    width: 27.8vw;
+    height: 27.8vw;
+    border-radius: 200vw;
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    transform: translateX(4.1vw) translateY(0.6vw);
+  }
+  .Circle-Two {
+    width: 22vw;
+    height: 22vw;
+    background-color: #c09bfc;
+    border-radius: 200vw;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    transform: translateX(-14.4vw) translateY(3.2vw);
+    transition: 0.5s;
+  }
+
+  .Background-Image-Container-Desktop:hover .Circle-Two {
+    transform: translateX(-14.4vw) translateY(3.2vw) scale(1.38);
   }
 }

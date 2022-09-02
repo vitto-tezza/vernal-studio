@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  padding-bottom: 10vw;
 }
 .container-contact-txt {
   height: 100%;
@@ -78,7 +79,7 @@
   justify-content: center;
   align-items: center;
   width: 60%;
-  margin: 2vw auto 15vw;
+  margin: 2vw auto;
 }
 .contact-button-submit {
   color: #000;
@@ -102,6 +103,24 @@
   background-size: 25%;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.contact-response {
+}
+
+.contact-response-loader {
+  width: 10vw;
+  margin: 0 auto;
+  display: none;
+}
+
+.contact-response-loader img {
+  width: 100%;
+}
+
+.contact-response-text {
+  font-size: 4vw;
+  display: none;
 }
 @media screen and (min-width: 1199px) {
   .container-contact {

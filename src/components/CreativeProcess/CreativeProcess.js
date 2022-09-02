@@ -1,6 +1,8 @@
 import React from "react";
 import "./CreativeProcess.css";
-import Background from "../../utils/images/creativeprocess-bg.png";
+import Background1 from "../../utils/images/creativeprocess-bg1.svg";
+import Background2 from "../../utils/images/creativeprocess-bg2.png";
+
 const creativeProcess = () => {
   return (
     <div className="CreativeProcess" id="CreativeProcess">
@@ -82,7 +84,19 @@ const creativeProcess = () => {
         </div>
       </div>
       <div className="Background-Image-Container-Desktop">
-        <img className="Background-Image-Desktop" src={Background} alt=""></img>
+        <img
+          className="Background-Image-Desktop1"
+          src={Background1}
+          alt=""
+        ></img>
+        <img
+          className="Background-Image-Desktop2"
+          src={Background2}
+          alt=""
+        ></img>
+        <div className="Circle-One">
+          <div className="Circle-Two"></div>
+        </div>
       </div>
     </div>
   );

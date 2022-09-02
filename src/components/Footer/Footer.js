@@ -29,7 +29,7 @@ const Footer = () => {
               <figure className="Media-Links-Image In"></figure>
             </a>
           </div>
-          <p className="Phone-Number">+54 91123456789</p>
+          <p className="Phone-Number">+54 9 1164572427</p>
         </div>
       </div>
     </footer>

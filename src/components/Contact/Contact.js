@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 /*css*/
 import "./Contact.css";
+import contactLoader from "../../utils/images/loader.svg";
 
 const Contact = () => {
   const [datos, setDatos] = useState({
@@ -18,7 +19,7 @@ const Contact = () => {
 
   const enviarDatos = (event) => {
     event.preventDefault();
-    fetch("https://formsubmit.co/ajax/noguessofia@gmail.com", {
+    fetch("https://formsubmit.co/ajax/hello@vernalstudio.com", {
       method: "post",
       body: new FormData(event.target),
     });
@@ -78,6 +79,14 @@ const Contact = () => {
           <button className="contact-button-submit" type="submit" id="submit">
             Enviar <div className="contact-button-submit-img"></div>
           </button>
+        </div>
+        <div className="contact-response">
+          <div className="contact-response-loader" id="contact-loader">
+            <img alt="" src={contactLoader}></img>
+          </div>
+          <div className="contact-response-text" id="contact-response">
+            ¡Su mensaje ha sido enviado con exito!
+          </div>
         </div>
       </form>
     </div>

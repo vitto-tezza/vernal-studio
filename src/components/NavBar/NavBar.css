@@ -402,22 +402,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     z-index: 6;
   }
 
   .txt-desplegable-1 {
     font-size: 1vw;
+    width: 70%;
     z-index: 6;
+    text-align: end;
   }
   .txt-desplegable-2 {
     font-size: 1vw;
-    padding-left: 2.1vw;
+    width: 70%;
+    text-align: end;
+
     font-weight: 200;
   }
   .txt-desplegable-tel {
     font-size: 1vw;
-    padding-left: 5.9vw;
+    width: 70%;
+    text-align: end;
+
     font-weight: 200;
     transition: 0.3s;
     color: #fff;
