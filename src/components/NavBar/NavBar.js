@@ -5,6 +5,7 @@ import "./NavBar.css";
 import logoVernalWhite from "../../utils/images/logo-vernal-white.png";
 import logoVernalBlack from "../../utils/images/logo-vernal-black.png";
 import languageArrow from "../../utils/images/header-languagearrow.png";
+import languageArrowD from "../../utils/images/header-languagearrowd.png";
 
 function NavBar() {
   const [menu, setMenu] = useState(false);
@@ -46,6 +47,14 @@ function NavBar() {
 
       <div className="logo">
         <img className="logo-vernal" src={logoVernalWhite} alt="logo"></img>
+      </div>
+      <div className="language-button-desktop" id="language-button-desktop">
+        ES{" "}
+        <img
+          className="language-button-desktop-img"
+          src={languageArrowD}
+          alt="language-selector"
+        ></img>
       </div>
       <div className={`Desplegable ${menu ? "isActive" : ""}`}>
         <div className="menu-nav">

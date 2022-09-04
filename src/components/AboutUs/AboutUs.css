@@ -128,6 +128,7 @@
 @media screen and (min-width: 767px) {
   .AboutUs-Container {
     width: 80%;
+    padding-bottom: 5vw;
   }
 
   .AboutUs-Subcontainer {
@@ -217,7 +218,7 @@
   }
 
   .Circle-1 {
-    top: 24vw;
+    top: 20vw;
     width: 30vw;
     height: 30vw;
     left: 45%;

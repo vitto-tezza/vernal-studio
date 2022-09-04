@@ -121,7 +121,6 @@
 
 .Background-Image-Container-Desktop {
   display: none;
-  border: 2px solid red;
 }
 
 @media screen and (min-width: 767px) {
@@ -152,10 +151,17 @@
     width: 34vw;
     bottom: 0;
     right: 0;
+    opacity: 1;
+    transition: 2s;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-right: 15%;
+    will-change: opacity;
+  }
+
+  .CreativeProcess-Container.CreativeProcess-Scroll {
+    opacity: 0;
   }
 
   .CreativeProcess-Box {
@@ -251,16 +257,23 @@
   .Background-Image-Container-Desktop {
     position: absolute;
     display: flex;
-    bottom: -5vw;
+    bottom: 5vw;
     margin-left: 0;
     width: 40%;
     overflow: hidden;
+    transition: 1s;
+    will-change: margin;
+  }
+
+  .Background-Image-Container-Desktop.CreativeProcess-Scroll {
+    margin-left: -10vw;
   }
 
   .Background-Image-Desktop1 {
     margin: 0;
-    width: 55%;
+    width: 22vw;
     margin-left: -30%;
+    z-index: 3;
   }
 
   .Background-Image-Desktop2 {
@@ -276,27 +289,32 @@
   }
 
   .Circle-One {
-    width: 27.8vw;
-    height: 27.8vw;
+    width: 27.6vw;
+    height: 27.6vw;
     border-radius: 200vw;
     display: flex;
     position: absolute;
     overflow: hidden;
-    transform: translateX(4.1vw) translateY(0.6vw);
+    transform: translateX(4.3vw) translateY(0.835vw);
   }
   .Circle-Two {
-    width: 22vw;
-    height: 22vw;
+    width: 20.9vw;
+    height: 20.9vw;
     background-color: #c09bfc;
     border-radius: 200vw;
     display: flex;
     position: absolute;
     z-index: 2;
-    transform: translateX(-14.4vw) translateY(3.2vw);
-    transition: 0.5s;
+    transform: translateX(-12.6vw) translateY(3.4vw);
+    transition: 1s;
+    will-change: transform;
   }
 
-  .Background-Image-Container-Desktop:hover .Circle-Two {
-    transform: translateX(-14.4vw) translateY(3.2vw) scale(1.38);
+  .Background-Image-Container-Desktop.CreativeProcess-Scroll .Circle-Two {
+    transform: translateX(-12.8vw) translateY(3.5vw) scale(1.55);
   }
+  /* 
+  .Background-Image-Container-Desktop:hover .Circle-Two {
+    
+  } */
 }

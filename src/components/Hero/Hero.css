@@ -44,13 +44,20 @@
 .Hero-Background-Image {
   position: absolute;
   right: 0;
-  top: 108.8vw;
+  /* top: 108.8vw; */
   z-index: 1;
   width: 95%;
 }
 @media screen and (min-width: 1199px) {
   .Hero {
-    padding: 6vw 0 10.5vw;
+    height: 100vh;
+    min-height: 50vw;
+    max-height: 58.33vw;
+    /* max-height: ; */
+    /* padding: 6vw 0 10.5vw; */
+    padding: 0 0;
+    display: flex;
+    align-items: center;
   }
   .hero-redes {
     display: flex;
@@ -61,7 +68,8 @@
     margin-left: 3.5%;
     width: 3vw;
     height: 9vw;
-    top: 15vw;
+    /* top: 15vw; */
+    margin-top: -3vw;
     position: absolute;
   }
   .hero-redes-container {
@@ -148,7 +156,7 @@
 
   .Hero-Background-Image {
     width: 45%;
+    bottom: -5vw;
     right: 0;
-    top: 6.68vw;
   }
 }

@@ -12,7 +12,7 @@ const creativeProcess = () => {
         </p>
         <h6 className="CreativeProcess-Title">Design Thinking</h6>
       </div>
-      <div className="CreativeProcess-Container">
+      <div className="CreativeProcess-Container animate CreativeProcess-Scroll">
         <div className="CreativeProcess-Box">
           <div className="CreativeProcess-Box-Icon">
             <figure
@@ -83,7 +83,7 @@ const creativeProcess = () => {
           </p>
         </div>
       </div>
-      <div className="Background-Image-Container-Desktop">
+      <div className="Background-Image-Container-Desktop animate CreativeProcess-Scroll">
         <img
           className="Background-Image-Desktop1"
           src={Background1}

@@ -5,25 +5,9 @@ import LogoLoop3 from "../../utils/images/projects-loop3-logo.png";
 import LogoMaderoTango from "../../utils/images/projects-maderotango-logo.png";
 import LogoDaleplast from "../../utils/images/projects-daleplast-logo.png";
 import LogoTuEspacio from "../../utils/images/projects-tuespacio-logo.svg";
+import scrollFunction from "../../utils/funtions/Scroll-Function";
 
-const Projects = () => {
-  window.addEventListener("scroll", function() {
-    var animate = document.querySelectorAll(".animate");
-
-    for (let i = 0; i < animate.length; i++) {
-      let altura = window.innerHeight / 1.7;
-
-      let distancia = animate[i].getBoundingClientRect().top;
-
-      if (distancia <= altura) {
-        animate[i].classList.remove(
-          "Projects-ScrollAnimation",
-          "Projects-ScrollAnimation-Arrow"
-        );
-      }
-    }
-  });
-
+const Projects = (scrollFunction) => {
   return (
     <div className="Projects" id="Projects">
       <div className="Projects-Container">
