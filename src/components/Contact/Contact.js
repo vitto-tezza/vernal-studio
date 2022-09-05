@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import contactLoader from "../../utils/images/loader.svg";
 /*css*/
 import "./Contact.css";
-import contactLoader from "../../utils/images/loader.svg";
 
 const Contact = () => {
+  const [response, setResponse] = useState("");
+
   const [datos, setDatos] = useState({
     inp_name: "",
     inp_email: "",
@@ -22,12 +24,20 @@ const Contact = () => {
     fetch("https://formsubmit.co/ajax/hello@vernalstudio.com", {
       method: "post",
       body: new FormData(event.target),
-    });
-    setDatos({
-      inp_name: "",
-      inp_email: "",
-      inp_mensaje: "",
-    });
+    })
+      .then((res) =>
+        res.ok
+          ? setResponse("mensaje enviado")
+          : setResponse("mensaje no enviado")
+      )
+      .catch((error) => console.log(error), setResponse("mensaje no enviado"))
+      .finally(() => {
+        setDatos({
+          inp_name: "",
+          inp_email: "",
+          inp_mensaje: "",
+        });
+      });
   };
 
   return (
@@ -85,7 +95,7 @@ const Contact = () => {
             <img alt="" src={contactLoader}></img>
           </div>
           <div className="contact-response-text" id="contact-response">
-            ¡Su mensaje ha sido enviado con exito!
+            {response}
           </div>
         </div>
       </form>

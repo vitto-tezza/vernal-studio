@@ -123,8 +123,7 @@
 }
 
 .contact-response-text {
-  font-size: 4vw;
-  display: none;
+  font-size: 1vw;
 }
 @media screen and (min-width: 1199px) {
   .container-contact {
