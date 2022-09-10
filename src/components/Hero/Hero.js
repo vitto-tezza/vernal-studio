@@ -47,7 +47,7 @@ const Hero = () => {
                 className="hero-subtitle-image"
                 src={arrowDescription}
               ></img>
-              branding, web, social media y más.
+              Branding, web, social media y más.
             </h2>
           </a>
         </div>

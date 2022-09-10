@@ -8,7 +8,7 @@
 
 .BannerUp-Slider-Container {
   width: 100vw;
-  height: 16vw;
+  height: 12vw;
   border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
   overflow: hidden;
@@ -35,21 +35,21 @@
     margin-left: 0;
   }
   100% {
-    margin-left: -130vw;
+    margin-left: -140vw;
   }
 }
 
 .BannerUp-Slider-Image {
-  width: 5vw;
-  height: 5vw;
-  margin: 0 5vw;
+  width: 4vw;
+  height: 4vw;
+  margin: 0 2vw;
 }
 
 .BannerUp-Slider-Text {
-  width: 50vw;
+  width: 70vw;
   margin: 0;
   color: #fff;
-  font-size: 4.7vw;
+  font-size: 5vw;
   height: 10vw;
   display: flex;
   align-items: center;
@@ -65,8 +65,8 @@
 }
 
 .BannerUp-Button {
-  width: 18vw;
-  height: 18vw;
+  width: 15vw;
+  height: 15vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,12 +86,12 @@
 
 @media screen and (min-width: 1199px) {
   .BannerUp {
-    height: 16vw;
+    height: 14vw;
   }
 
   .BannerUp-Slider-Container {
-    height: 5vw;
-    margin-top: 3vw;
+    height: 4vw;
+    margin-top: 2vw;
   }
 
   .BannerUp-Slider {
@@ -99,14 +99,14 @@
   }
 
   .BannerUp-Slider-Image {
-    width: 2vw;
-    height: 2vw;
+    width: 1.2vw;
+    height: 1.2vw;
     margin: 0 1vw;
   }
 
   .BannerUp-Slider-Text {
-    width: 20vw;
-    font-size: 1.8vw;
+    width: 17vw;
+    font-size: 1.5vw;
     height: 2vw;
     font-weight: 600;
   }
@@ -119,7 +119,7 @@
   .BannerUp-Button {
     width: 5vw;
     height: 5vw;
-    margin-top: 3vw;
+    margin-top: 2vw;
   }
 
   .BannerUp-Button:hover .BannerUp-Button-Image {
@@ -140,7 +140,7 @@
       margin-left: 0;
     }
     100% {
-      margin-left: -48vw;
+      margin-left: -20.25vw;
     }
   }
 }

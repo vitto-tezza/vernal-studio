@@ -55,6 +55,8 @@ function NavBar() {
           src={languageArrowD}
           alt="language-selector"
         ></img>
+        <div className="language-button-desktop-lang desktop-lang-1">EN</div>
+        <div className="language-button-desktop-lang desktop-lang-2">PT</div>
       </div>
       <div className={`Desplegable ${menu ? "isActive" : ""}`}>
         <div className="menu-nav">

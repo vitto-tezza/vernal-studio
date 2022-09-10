@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import contactLoader from "../../utils/images/loader.svg";
 /*css*/
 import "./Contact.css";
 
 const Contact = () => {
   const [response, setResponse] = useState("");
-
   const [datos, setDatos] = useState({
     inp_name: "",
     inp_email: "",
@@ -21,16 +20,18 @@ const Contact = () => {
 
   const enviarDatos = (event) => {
     event.preventDefault();
+
     fetch("https://formsubmit.co/ajax/hello@vernalstudio.com", {
       method: "post",
       body: new FormData(event.target),
     })
       .then((res) =>
-        res.ok
-          ? setResponse("mensaje enviado")
-          : setResponse("mensaje no enviado")
+        res.ok ? setResponse("Mensaje enviado") : Promise.reject(res)
       )
-      .catch((error) => console.log(error), setResponse("mensaje no enviado"))
+      .catch(
+        (error) => console.log(error),
+        setResponse(<img alt="" className="loader" src={contactLoader}></img>)
+      )
       .finally(() => {
         setDatos({
           inp_name: "",
@@ -87,13 +88,11 @@ const Contact = () => {
         ></textarea>
         <div className="contact-button-container">
           <button className="contact-button-submit" type="submit" id="submit">
-            Enviar <div className="contact-button-submit-img"></div>
+            <p className="contact-button-submit-text"> Enviar </p>
+            <div className="contact-button-submit-img "></div>
           </button>
         </div>
         <div className="contact-response">
-          <div className="contact-response-loader" id="contact-loader">
-            <img alt="" src={contactLoader}></img>
-          </div>
           <div className="contact-response-text" id="contact-response">
             {response}
           </div>

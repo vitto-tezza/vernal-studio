@@ -4,6 +4,7 @@
   align-items: center;
   position: relative;
   padding: 15vw 0;
+  overflow: hidden;
 }
 
 .AboutUs-Text {
@@ -162,7 +163,7 @@
   }
 
   .AboutUs-Text {
-    width: 75%;
+    width: 70%;
   }
 
   .AboutUs-Text-Title {
@@ -173,6 +174,7 @@
   .AboutUs-Text-Subtitle {
     font-size: 1.33vw;
     margin: 1vw 0 3vw;
+    line-height: 140%;
   }
 
   .AboutUs-Text-Subtitle-Desktop {
@@ -185,7 +187,7 @@
 
   .AboutUs-Container {
     position: relative;
-    width: 75%;
+    width: 70%;
   }
 
   .AboutUs-Subcontainer {

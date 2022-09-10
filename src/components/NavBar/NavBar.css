@@ -1,11 +1,11 @@
 .container-NavBar {
   position: relative;
-  padding-top: 5vw;
+  padding-top: 7.5vw;
 }
 
 .menu {
-  width: 8.5vw;
-  height: 8.5vw;
+  width: 8.3vw;
+  height: 8.3vw;
   z-index: 500;
   position: absolute;
   left: 5vw;
@@ -13,6 +13,12 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  will-change: transform;
+  transition: 0.3s;
+}
+
+.menu:active {
+  transform: scale(0.95);
 }
 
 .menu.menuButtonFixed {
@@ -20,7 +26,7 @@
 }
 
 .menu-button-span {
-  height: 3.5vw;
+  height: 3vw;
   transition: 0.5s cubic-bezier(0.69, 0.01, 0, 0.01);
   will-change: background width transform;
   position: absolute;
@@ -28,33 +34,36 @@
 }
 
 .menu-button-1 {
-  width: 12vw;
+  width: 11vw;
   background-color: #8c32ff;
+
   top: 0;
   left: 0;
-  transform: rotateZ(45deg) translateY(3vw) translateX(1.7vw);
+  transform: rotateZ(45deg) translateY(2.85vw) translateX(0.87vw);
   z-index: 1;
 }
 .menu-button-2 {
-  width: 12vw;
+  width: 11vw;
   background-color: #000;
+
   top: 0;
   right: 0;
-  transform: rotateZ(-45deg) translateY(3vw) translateX(-1.7vw);
+  transform: rotateZ(-45deg) translateY(2.825vw) translateX(-0.87vw);
   z-index: 0;
 }
 .menu-button-3 {
   background-color: #000;
-  width: 12vw;
-  transform: rotateZ(-45deg) translateY(-3vw) translateX(1.7vw);
+  width: 11vw;
+  transform: rotateZ(-45deg) translateY(-2.825vw) translateX(0.87vw);
   bottom: 0;
   left: 0;
   z-index: 0;
 }
 .menu-button-4 {
   background-color: #8c32ff;
-  width: 12vw;
-  transform: rotateZ(45deg) translateY(-3vw) translateX(-1.7vw);
+  width: 11vw;
+
+  transform: rotateZ(45deg) translateY(-2.85vw) translateX(-0.87vw);
   bottom: 0;
   right: 0;
   z-index: 1;
@@ -62,23 +71,23 @@
 
 .menu-button-span.menu-button-1.menuButtonIsActive {
   background-color: #000;
-  width: 3.3vw;
-  height: 3.3vw;
+  width: 3vw;
+  height: 3vw;
   transform: rotateZ(45deg) translateY(0) translateX(0);
 }
 .menu-button-span.menu-button-2.menuButtonIsActive {
-  width: 3.3vw;
-  height: 3.3vw;
+  width: 3vw;
+  height: 3vw;
   transform: rotateZ(45deg) translateY(0) translateX(0);
 }
 .menu-button-span.menu-button-3.menuButtonIsActive {
-  width: 3.3vw;
-  height: 3.3vw;
+  width: 3vw;
+  height: 3vw;
   transform: rotateZ(45deg) translateY(0) translateX(0);
 }
 .menu-button-span.menu-button-4.menuButtonIsActive {
-  width: 3.3vw;
-  height: 3.3vw;
+  width: 3vw;
+  height: 3vw;
   transform: rotateZ(45deg) translateY(0) translateX(0);
 }
 
@@ -333,7 +342,7 @@
   }
 
   .logo {
-    margin: 0 0 0 12.5%;
+    margin: 0 0 0 15%;
     width: 8vw;
   }
 
@@ -343,22 +352,61 @@
   }
 
   .language-button-desktop {
-    display: flex;
     color: #000;
     position: absolute;
     right: 5%;
     top: 1.5vw;
-    width: 3vw;
+    width: 2vw;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    height: 2vw;
     cursor: pointer;
+    z-index: 2;
+    padding: 0.5vw;
+    font-size: 0.9vw;
+    transition: 0.3s;
+    will-change: box-shadow;
+  }
+
+  .language-button-desktop:hover {
+    box-shadow: 0 0.1vw 0.35vw 0.1vw rgba(0, 0, 0, 0.3);
+    padding-bottom: 4vw;
   }
 
   .language-button-desktop-img {
     width: 0.45vw;
     transform: rotateZ(90deg);
+    transition: 0.3s;
+    will-change: transform;
+  }
+
+  .language-button-desktop:hover .language-button-desktop-img {
+    transform: rotateZ(90deg) rotateY(180deg);
+  }
+
+  .language-button-desktop-lang {
+    width: 100%;
+    padding: 0.4vw 0 0;
+    position: absolute;
+    transform: translateY(0);
+    transition: 0.3s;
+    opacity: 0;
+    will-change: opacity transform color;
+  }
+
+  .language-button-desktop:hover .desktop-lang-1 {
+    transform: translateY(1.5vw);
+    opacity: 1;
+  }
+
+  .language-button-desktop:hover .desktop-lang-2 {
+    transform: translateY(3vw);
+    opacity: 1;
+  }
+
+  .language-button-desktop-lang:hover {
+    color: #8c32ff;
   }
 
   .Desplegable {

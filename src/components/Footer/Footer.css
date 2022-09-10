@@ -15,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 22vw;
+  height: 23vw;
 }
 
 .Footer-Subcontainer {
@@ -36,7 +36,7 @@
 }
 
 .Footer-Logo {
-  width: 100%;
+  width: 90%;
   margin-bottom: 2.5vw;
 }
 
@@ -52,22 +52,23 @@
 
 .Footer-Text {
   color: #aaa;
-  font-size: 2.5vw;
-  margin: 0;
+  font-size: 2.65vw;
+  margin: 0 0 1vw;
   font-weight: 300;
   text-align: end;
 }
 
 .Media-Container {
   display: flex;
+  width: 95%;
   justify-content: space-between;
   align-items: center;
-  margin: 1vw 0;
+  margin: 1vw 0 2vw auto;
 }
 
 .Media-Links {
-  width: 9.5vw;
-  height: 9.5vw;
+  width: 10vw;
+  height: 10vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -118,12 +119,12 @@
 
 @media screen and (min-width: 1199px) {
   .Footer {
-    height: 20vw;
+    height: 15vw;
   }
 
   .Footer-Container {
-    width: 40%;
-    height: 9.2vw;
+    width: 35%;
+    height: 7.2vw;
   }
 
   .Footer-Subcontainer-1 {
@@ -135,12 +136,12 @@
   }
 
   .Footer-Logo {
-    margin-bottom: 2vw;
+    margin-bottom: 1.3vw;
   }
 
   .Footer-Menu {
-    font-size: 1.25vw;
-    margin-top: 0.2vw;
+    font-size: 1.1vw;
+    margin-top: 0.1vw;
     transition: 0.3s;
     will-change: color;
   }
@@ -151,6 +152,7 @@
 
   .Footer-Text {
     font-size: 1vw;
+    margin-bottom: 0;
     text-align: start;
   }
 
@@ -177,6 +179,7 @@
 
   .Phone-Number {
     padding-left: 2.7vw;
+    padding: 0.4vw 0 0.4vw 2.7vw;
     font-size: 1.2vw;
     background-size: 1.3vw;
   }

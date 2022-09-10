@@ -7,19 +7,19 @@
   padding-bottom: 10vw;
 }
 .container-contact-txt {
-  height: 100%;
-  width: 80%;
-  margin: 10vw 0;
+  width: 85%;
+  margin: 10vw 0 8vw;
 }
 .container-contact-txt-title {
-  font-size: 9.5vw;
+  font-size: 9.3vw;
   color: #8c32ff;
   font-weight: 600;
   margin-bottom: 0;
 }
 .container-contact-txt-subtitle {
-  font-size: 7vw;
+  font-size: 7.8vw;
   font-weight: 400;
+  margin: 3vw 0 2vw;
 }
 .contact-txt-span {
   font-weight: 600;
@@ -27,7 +27,7 @@
 .container-contact-txt-last {
   font-size: 4vw;
   font-weight: 400;
-  margin-bottom: -3vw;
+  margin-bottom: 0;
 }
 .container-contact-form {
   display: flex;
@@ -42,7 +42,7 @@
   font-family: "Lexend Deca", sans-serif;
   border: none;
   margin: 3% 0;
-  padding: 1.5vw;
+  padding: 2vw;
   border-bottom: 0.1vw solid #000;
   outline: none;
 }
@@ -55,7 +55,7 @@
   border: none;
   font-family: "Lexend Deca", sans-serif;
   margin: 3% 0;
-  padding: 1.5vw;
+  padding: 2vw;
   border-bottom: 0.1vw solid #000;
   outline: none;
 }
@@ -69,7 +69,7 @@
   font-family: "Lexend Deca", sans-serif;
   border: none;
   margin: 3% 0;
-  padding: 1.5vw;
+  padding: 2vw;
   border-bottom: 0.1vw solid #000;
   resize: none;
   outline: none;
@@ -83,24 +83,32 @@
   justify-content: center;
   align-items: center;
   width: 60%;
-  margin: 2vw auto;
+  margin: 10vw auto 6vw;
 }
 .contact-button-submit {
   color: #000;
   border: none;
   background-color: transparent;
-  font-size: 5vw;
+  font-size: 6vw;
   font-weight: 600;
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 60%;
-  margin: 5vw auto 0;
+  width: 65%;
+  margin: 0;
 }
+
+.contact-button-submit-text {
+  margin: 0;
+  font-size: 5.3vw;
+  transform: translateX(0vw);
+  font-family: "Lexend Deca", sans-serif;
+}
+
 .contact-button-submit-img {
   width: 14vw;
   height: 14vw;
-  margin-left: 2.5vw;
+  right: 32%;
+  position: absolute;
   background-color: #8c32ff;
   border-radius: 100vw;
   background-image: url(../../utils/images/projects-morearrow.svg);
@@ -110,29 +118,25 @@
 }
 
 .contact-response {
-}
-
-.contact-response-loader {
-  width: 10vw;
-  margin: 0 auto;
-  display: none;
-}
-
-.contact-response-loader img {
-  width: 100%;
+  color: #65e0b1;
 }
 
 .contact-response-text {
-  font-size: 1vw;
+  font-size: 5vw;
+}
+
+.loader {
+  width: 10vw;
 }
 @media screen and (min-width: 1199px) {
   .container-contact {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: center;
     padding-top: 15vw;
     padding-bottom: 5vw;
-    width: 75%;
+    width: 70%;
     height: auto;
     margin: 0 auto;
   }
@@ -161,10 +165,10 @@
     margin: 0;
   }
   .container-contact-form {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0;
-    padding-top: 3.7vw;
+    padding-top: 6vw;
   }
   .contact-name {
     font-size: 1.2vw;
@@ -194,18 +198,53 @@
   }
   .contact-button-container {
     margin-top: -0.5vw;
-    margin-right: -3.6vw;
-    margin-bottom: 3vw;
+    margin-bottom: 1.5vw;
+    position: relative;
+    transform: translateX(7.5vw);
+    width: 9vw;
   }
   .contact-button-submit {
-    font-size: 1.8vw;
     margin-top: 1vw;
     cursor: pointer;
+    width: 100%;
   }
+
+  .contact-button-submit-text {
+    font-size: 1.3vw;
+    z-index: 2;
+    transition: 0.3s;
+    will-change: transform color;
+    margin: 0;
+    font-weight: 400;
+  }
+
   .contact-button-submit-img {
     width: 3.8vw;
     height: 3.8vw;
-    margin-left: 2.5vw;
+    background-size: 0.9vw;
+    background-position: 53% center;
+
     cursor: pointer;
+    right: 0;
+    transition: 0.3s;
+    will-change: width background-position background background-size;
+  }
+
+  .contact-button-container:hover .contact-button-submit-img {
+    width: 100%;
+    background-position: 85% center;
+  }
+
+  .contact-button-container:hover .contact-button-submit-text {
+    transform: translateX(1.5vw);
+    color: #fff;
+  }
+
+  .contact-response-text {
+    font-size: 1.5vw;
+  }
+
+  .loader {
+    width: 3vw;
   }
 }

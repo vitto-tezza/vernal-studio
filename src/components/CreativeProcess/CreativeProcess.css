@@ -38,7 +38,7 @@
 
 .CreativeProcess-Box {
   position: relative;
-  width: 75%;
+  width: 85%;
   margin-top: 10vw;
   padding: 7vw 6vw;
   border-radius: 6vw;
@@ -133,7 +133,7 @@
   }
 
   .CreativeProcess-Title-Container {
-    width: 75%;
+    width: 70%;
   }
 
   .CreativeProcess-Title-Description {
@@ -144,7 +144,7 @@
   }
 
   .CreativeProcess-Title {
-    font-size: 2.6em;
+    font-size: 2.5em;
   }
 
   .CreativeProcess-Container {
@@ -165,9 +165,9 @@
   }
 
   .CreativeProcess-Box {
-    width: 37%;
-    height: 12vw;
-    padding: 2.4vw 1.5vw 1vw;
+    width: 35%;
+    height: 11vw;
+    padding: 2.4vw 1.8vw 1vw;
     border-radius: 1.8vw;
     margin: 1.3vw 0;
     transition: 0.5s;
@@ -238,10 +238,10 @@
   }
 
   .CreativeProcess-Box-Description {
-    font-size: 1.14vw;
+    font-size: 1.1vw;
     margin: 1vw 0 0;
     font-weight: 300;
-    line-height: 160%;
+    line-height: 140%;
     transition: 0.5s;
     will-change: color;
   }
@@ -259,9 +259,9 @@
     display: flex;
     bottom: 5vw;
     margin-left: 0;
-    width: 40%;
+    width: 35%;
     overflow: hidden;
-    transition: 1s;
+    transition: 0.5s;
     will-change: margin;
   }
 
@@ -295,7 +295,7 @@
     display: flex;
     position: absolute;
     overflow: hidden;
-    transform: translateX(4.3vw) translateY(0.835vw);
+    transform: translateX(5.7vw) translateY(0.835vw);
   }
   .Circle-Two {
     width: 20.9vw;
@@ -306,15 +306,15 @@
     position: absolute;
     z-index: 2;
     transform: translateX(-12.6vw) translateY(3.4vw);
-    transition: 1s;
+    transition: 0.5s;
     will-change: transform;
   }
 
   .Background-Image-Container-Desktop.CreativeProcess-Scroll .Circle-Two {
     transform: translateX(-12.8vw) translateY(3.5vw) scale(1.55);
   }
-  /* 
+
   .Background-Image-Container-Desktop:hover .Circle-Two {
-    
-  } */
+    transform: translateX(-9.5vw) translateY(3.4vw) scale(1.55);
+  }
 }
