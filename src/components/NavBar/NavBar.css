@@ -125,7 +125,59 @@
 }
 
 .language-button-desktop {
-  display: none;
+  color: #000;
+  position: absolute;
+  right: 8%;
+  top: 5.5vw;
+  width: 13vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  z-index: 2;
+  padding: 2vw;
+  font-size: 6vw;
+  font-weight: 500;
+  transition: 0.3s;
+  will-change: box-shadow;
+  background-color: #fff;
+}
+
+.language-button-desktop:hover {
+  padding-bottom: 15vw;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.language-button-desktop-img {
+  width: 3.5vw;
+  transform: rotateX(180deg);
+  transition: 0.3s;
+  will-change: transform;
+}
+
+.language-button-desktop:hover .language-button-desktop-img {
+  transform: rotateX(0deg);
+}
+
+.language-button-desktop-lang {
+  width: 100%;
+  padding: 10vw 0 0;
+  position: absolute;
+  transform: translateY(0);
+  transition: 0.3s;
+  opacity: 0;
+  will-change: opacity transform color;
+}
+
+.language-button-desktop:hover .desktop-lang-1 {
+  transform: translateY(2vw);
+  opacity: 1;
+}
+
+.language-button-desktop:hover .desktop-lang-2 {
+  transform: translateY(9vw);
+  opacity: 1;
 }
 
 .language-button {
@@ -290,7 +342,7 @@
     height: 1.8vw;
     padding: 0.1vw;
     margin-left: 4vw;
-    margin-top: 2.5vw;
+    margin-top: 2vw;
     cursor: pointer;
   }
 
@@ -342,7 +394,7 @@
   }
 
   .logo {
-    margin: 0 0 0 15%;
+    margin: 0 auto;
     width: 8vw;
   }
 
@@ -356,7 +408,7 @@
     position: absolute;
     right: 5%;
     top: 1.5vw;
-    width: 2vw;
+    width: 3vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -364,7 +416,7 @@
     cursor: pointer;
     z-index: 2;
     padding: 0.5vw;
-    font-size: 0.9vw;
+    font-size: 1.3vw;
     transition: 0.3s;
     will-change: box-shadow;
   }
@@ -375,14 +427,9 @@
   }
 
   .language-button-desktop-img {
-    width: 0.45vw;
-    transform: rotateZ(90deg);
+    width: 0.7vw;
     transition: 0.3s;
     will-change: transform;
-  }
-
-  .language-button-desktop:hover .language-button-desktop-img {
-    transform: rotateZ(90deg) rotateY(180deg);
   }
 
   .language-button-desktop-lang {

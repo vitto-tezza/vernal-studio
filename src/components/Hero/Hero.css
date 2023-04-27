@@ -1,5 +1,5 @@
 .Hero {
-  padding: 18vw 0 90.8vw;
+  padding: 12vw 0 56vw;
   position: relative;
 }
 
@@ -12,57 +12,55 @@
 }
 .hero-title {
   margin: 0;
-  font-size: 7.2vw;
-  color: #8c32ff;
+  width: 80%;
+  font-size: 8vw;
   font-weight: 400;
-}
-.hero-description {
-  margin: 2.5vw 0 7vw;
-  font-size: 7.8vw;
-  font-weight: 400;
-}
-.hero-description-span {
-  font-style: italic;
-  font-weight: 600;
+  line-height: 110%;
 }
 
-.hero-subtitle {
-  text-decoration: none;
-  pointer-events: none;
-  color: #000;
-}
-
-.hero-subtitle-container {
-  margin: 0;
-  font-size: 3.3vw;
-  font-weight: 400;
-}
-
-.hero-subtitle-image {
+.hero-text {
   display: none;
 }
 
 .Hero-Background-Container {
-  width: 95%;
-  height: 88vw;
-  right: 0;
-  bottom: -10vw;
+  width: 88%;
+  bottom: -18vw;
 
   position: absolute;
 }
 
 .Hero-Background-Image {
-  /* top: 108.8vw; */
   z-index: 1;
+  margin: 0;
   width: 100%;
+}
+
+.Hero-Background-Block {
+  width: 20vw;
+  height: 20vw;
+  display: flex;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Block1 {
+  bottom: 52vw;
+  right: -7vw;
+  background-size: 70%;
+  background-image: url(../../utils/images/hero-block1.svg);
+}
+.Block2 {
+  bottom: -14vw;
+  right: 45vw;
+  background-size: 40%;
+
+  background-image: url(../../utils/images/hero-block2.svg);
 }
 @media screen and (min-width: 1199px) {
   .Hero {
-    height: 100vh;
-    min-height: 50vw;
-    max-height: 58.33vw;
-    /* max-height: ; */
-    /* padding: 6vw 0 10.5vw; */
+    height: 40vw;
+
     padding: 0 0;
     display: flex;
     align-items: center;
@@ -127,48 +125,59 @@
     margin: 0 auto;
   }
   .hero-txt-container {
-    margin: 0;
-    width: 60%;
+    margin: 5vw 0 0;
+    width: 65%;
   }
   .hero-title {
-    font-size: 2.3vw;
-  }
-  .hero-description {
-    margin: 1vw 0 6vw;
-    font-size: 3.3vw;
-  }
-
-  .hero-subtitle {
-    pointer-events: all;
-    text-decoration: none;
+    font-size: 5.3vw;
+    width: 100%;
+    line-height: 90%;
+    z-index: 3;
+    position: relative;
   }
 
-  .hero-subtitle:hover .hero-subtitle-image {
-    opacity: 1;
-    transform: scale(1.05) translateY(0.7vw);
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-size: 1vw;
+    margin-top: 4vw;
   }
 
-  .hero-subtitle-container {
-    font-size: 1.3vw;
-    font-weight: 400;
-  }
-
-  .hero-subtitle-image {
-    display: inline-block;
-    margin-right: 0.8vw;
-    width: 1.1vw;
-    opacity: 0.35;
-    transition: 0.3s;
-    will-change: transform;
+  .hero-text span {
+    font-weight: 600;
   }
 
   .Hero-Background-Container {
-    bottom: -55.4vw;
-    right: 0;
-    width: 40%;
+    bottom: -5vw;
+    right: 7vw;
+    width: 35%;
   }
 
   .Hero-Background-Image {
     width: 100%;
+  }
+
+  .Hero-Background-Block {
+    height: 5.5vw;
+    width: 5.5vw;
+    display: flex;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .Block1 {
+    bottom: 25vw;
+    right: 7vw;
+    background-size: 70%;
+    background-image: url(../../utils/images/hero-block1.svg);
+  }
+  .Block2 {
+    bottom: -2.7vw;
+    right: 19.8vw;
+    background-size: 40%;
+
+    background-image: url(../../utils/images/hero-block2.svg);
   }
 }

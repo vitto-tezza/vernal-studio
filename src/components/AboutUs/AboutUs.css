@@ -1,7 +1,6 @@
 .AboutUs {
   display: flex;
   flex-direction: column;
-  align-items: center;
   position: relative;
   padding: 15vw 0;
   overflow: hidden;
@@ -9,6 +8,10 @@
 
 .AboutUs-Text {
   width: 90%;
+}
+
+.Section-Title.AboutUs-Section-Title {
+  color: #000;
 }
 
 .AboutUs-Text-Title {

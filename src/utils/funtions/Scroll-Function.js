@@ -9,7 +9,6 @@ const scrollFunction = window.addEventListener("scroll", function() {
     if (distancia <= altura) {
       animate[i].classList.remove(
         "Projects-ScrollAnimation",
-        "Projects-ScrollAnimation-Arrow",
         "CreativeProcess-Scroll"
       );
     }

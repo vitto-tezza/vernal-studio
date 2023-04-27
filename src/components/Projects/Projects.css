@@ -1,55 +1,47 @@
 .Projects-Container {
   background-color: #131313;
-  padding: 20vw 0 15vw;
+  padding: 40vw 0 15vw;
 }
 
 .Projects-Title-Container {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 
 .Projects-Title {
   margin: 0;
-  font-size: 6vw;
+  font-size: 6.9vw;
+  width: 90%;
+  color: #fff;
+  font-family: "ClashDisplay-Medium";
 }
 
-.Projects-Title-1 {
-  color: #8946e1;
+.Projects-Line {
+  display: flex;
+  width: 50%;
+  margin: 10vw 0 6vw;
+  border-top: 2px solid #fff;
+  opacity: 0.3;
+  margin-left: -10%;
 }
 
-.Projects-Title-2 {
-  color: #9a4dff;
-}
-
-.Projects-Title-3 {
-  color: #b482ff;
-}
-
-.Projects-Arrow {
-  width: 6vw;
-  margin: 10vw 0 2vw;
-  opacity: 1;
-  transition: 1s;
-  will-change: transform opacity margin;
-}
-
-.Projects-ScrollAnimation-Arrow {
-  opacity: 0.5;
-  transform: scale(0.8);
-  margin: 2vw 0 10vw;
-}
 .Projects-Subtitle {
   color: white;
-  font-size: 5.5vw;
+  width: 80%;
+  font-size: 4.2vw;
   font-weight: 300;
-  margin: 0;
+  margin: 0 0 0 20%;
+}
+
+.Projects-Selection {
+  display: none;
 }
 
 .Projects-Subcontainer {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
-  margin: 7vw auto 0;
+  margin: 16vw auto 0;
 }
 
 .Projects-Subcontainer-Box {
@@ -70,7 +62,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 10vw 1vw rgba(0, 0, 0, 0.8);
 }
 
 .Logo-Loop {
@@ -105,35 +96,20 @@
   background-image: url(../../utils/images/projects-tuespacio-bg.png);
 }
 
-.Projects-Subcontainer-Box-Button {
-  width: 14vw;
-  height: 14vw;
-  border-radius: 100vw;
-  background-color: #65e0b1;
-  background-image: url(../../utils/images/projects-boxarrow.svg);
-  background-size: 30%;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: -7.5vw 0 2vw;
-}
-
 .Projects-Subcontainer-Box-Title {
-  font-size: 8vw;
+  font-size: 6vw;
   color: #fff;
-  margin: 1vw 0 3vw;
-  font-weight: 400;
+  margin: 8vw 0 3vw;
   text-transform: capitalize;
+  font-family: "ClashDisplay-Light";
 }
 
-.Projects-Subcontainer-Box-Description {
-  font-size: 3.2vw;
+.Projects-Subcontainer-Box-Location {
+  font-size: 6vw;
   color: #aaa;
+  opacity: 0.7;
+  font-weight: 300;
   margin: 0;
-  font-style: italic;
-}
-
-.Projects-Subcontainer-Box-Description-Desktop {
-  display: none;
 }
 
 .Projects-More-Container {
@@ -146,17 +122,18 @@
 }
 
 .Projects-More-Text {
-  font-size: 6vw;
+  font-size: 5vw;
+  margin-left: -3vw;
+  font-family: "ClashDisplay-Regular";
 }
 
 .Projects-More-Button {
-  width: 14vw;
-  height: 14vw;
-  margin-left: 2.5vw;
-  background-color: #8c32ff;
+  width: 20vw;
+  height: 20vw;
+  background-color: #333;
   border-radius: 100vw;
   background-image: url(../../utils/images/projects-morearrow.svg);
-  background-size: 25%;
+  background-size: 30%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -168,26 +145,37 @@
   }
 
   .Projects-Title-Container {
-    width: 70%;
+    width: 85%;
+    position: relative;
+    border: 2px solid red;
+    margin-bottom: 10vw;
   }
 
   .Projects-Title {
-    font-size: 2.5vw;
+    font-size: 3.4vw;
+    width: 60%;
+    margin: 4vw 0 0 5%;
   }
 
-  .Projects-Arrow {
-    width: 1.8vw;
-    margin: 3vw 0 1.5vw;
-  }
-
-  .Projects-ScrollAnimation-Arrow {
-    opacity: 0.5;
-    transform: scale(0.8);
-    margin: 1.5vw 0 3vw;
+  .Projects-Line {
+    margin: 5vw 0 0 5%;
   }
 
   .Projects-Subtitle {
-    font-size: 2vw;
+    font-size: 1vw;
+    width: 20%;
+    position: absolute;
+    margin-top: -2vw;
+    right: 20%;
+    opacity: 0.9;
+  }
+
+  .Projects-Selection {
+    display: flex;
+    color: #fff;
+    font-size: 3.4vw;
+    font-family: "ClashDisplay-Medium";
+    margin-left: 13%;
   }
 
   .Projects-Subcontainer {
@@ -201,7 +189,16 @@
     position: relative;
     margin-top: 0;
     padding-bottom: 2vw;
+    margin-bottom: 3vw;
     cursor: pointer;
+  }
+
+  .Projects-Subcontainer-Box:nth-child(2) {
+    margin-top: 6vw;
+  }
+
+  .Projects-Subcontainer-Box:nth-child(3) {
+    margin-top: -6vw;
   }
 
   .Projects-Subcontainer-Box:hover .Projects-Subcontainer-Box-Image {
@@ -233,58 +230,20 @@
     will-change: border-radius;
   }
 
-  .Projects-Subcontainer-Box-Button {
-    width: 2.4vw;
-    height: 2.4vw;
-    background-size: 60%;
-    margin-top: -1vw;
-    background-color: rgba(0, 0, 0, 0);
-    background-image: url(../../utils/images/projects-morearrow.svg);
-    position: absolute;
-    top: 34.1vw;
-    right: 0;
-    transition: 0.3s;
-    transform: rotateZ(0deg);
-    will-change: background-image transform;
-  }
-
   .Projects-Subcontainer-Box-Title {
-    font-size: 2.1vw;
+    font-size: 1.4vw;
     margin: 2vw 0 0.5vw;
-    width: 100%;
     color: #fff;
     transition: 0.3s;
     will-change: color;
   }
 
-  .Projects-Subcontainer-Box-Description {
-    font-size: 1.1vw;
-    width: 100%;
+  .Projects-Subcontainer-Box-Location {
+    font-size: 1.3vw;
     margin: 0;
     font-style: normal;
     font-weight: 300;
     margin-bottom: 0.15vw;
-  }
-
-  .Projects-Subcontainer-Box-Description-Mobile {
-    display: none;
-  }
-
-  .Projects-Subcontainer-Box-Description-Desktop {
-    display: flex;
-    align-items: center;
-    transition: 0.3s;
-    will-change: color;
-  }
-
-  .Projects-Subcontainer-Box-Checkbox {
-    width: 0.35vw;
-    height: 0.35vw;
-    margin-right: 0.5vw;
-    background-color: #999;
-    border-radius: 100vw;
-    transition: 0.3s;
-    will-change: background;
   }
 
   .Projects-More-Container {
@@ -292,7 +251,7 @@
     margin-top: 1vw;
     z-index: 2;
     cursor: pointer;
-    width: 15vw;
+    width: 11vw;
     padding: 0.8vw 0;
   }
 
@@ -301,28 +260,28 @@
     transform: translateX(-1.7vw);
     transition: 0.3s;
     will-change: transform;
-    font-size: 2vw;
-    margin: 0;
+    font-size: 1.2vw;
+    margin: 0 0 0 4vw;
   }
 
   .Projects-More-Button {
     width: 3.8vw;
     height: 3.8vw;
     background-size: 0.9vw;
-    background-position: 53% center;
+    background-position: center;
     position: absolute;
-    right: 0;
     z-index: 1;
+    left: 0;
     transition: 0.3s;
     will-change: width background-position background background-size;
   }
 
   .Projects-More-Container:hover .Projects-More-Button {
-    width: 15vw;
-    background-position: 85% center;
+    width: 11vw;
+    background-position: 13% center;
     background-size: 0.9vw;
   }
-  .Projects-More-Container:hover .Projects-More-Text {
+  /* .Projects-More-Container:hover .Projects-More-Text {
     transform: translateX(-1vw);
-  }
+  } */
 }

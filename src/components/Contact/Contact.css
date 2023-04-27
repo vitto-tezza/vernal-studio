@@ -95,6 +95,7 @@
   align-items: center;
   width: 65%;
   margin: 0;
+  outline: none;
 }
 
 .contact-button-submit-text {

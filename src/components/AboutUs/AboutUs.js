@@ -5,19 +5,13 @@ import "./AboutUs.css";
 const AboutUs = () => {
   return (
     <div className="AboutUs" id="AboutUs">
+      <div className="Section-Title AboutUs-Section-Title">
+        Servicios <div className="Section-Title-Image"></div>
+      </div>
       <div className="AboutUs-Text">
-        <p className="AboutUs-Text-Title">- Participamos en cada detalle</p>
-        <p className="AboutUs-Text-Subtitle-Mobile AboutUs-Text-Subtitle">
-          Nos especializamos en el desarrollo de<br></br>proyectos 360°,{" "}
-          <span className="AboutUs-Text-Subtitle-Span">
-            cuidando cada<br></br>aspecto de tu marca.
-          </span>{" "}
-        </p>
-        <p className="AboutUs-Text-Subtitle-Desktop AboutUs-Text-Subtitle">
-          Nos especializamos en el desarrollo de proyectos<br></br>360°,{" "}
-          <span className="AboutUs-Text-Subtitle-Span">
-            cuidando cada aspecto de tu marca.
-          </span>{" "}
+        <p className="AboutUs-Text-Subtitle">
+          A full-cycle digital service agency. We do from design to end-to-end
+          development to maintenance.
         </p>
       </div>
       <div className="AboutUs-Container">

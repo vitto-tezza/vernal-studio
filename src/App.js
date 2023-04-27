@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import BannerUp from "./components/BannerUp/BannerUp";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
+import "./utils/fonts/clash-display.css";
 
 function App() {
   return (

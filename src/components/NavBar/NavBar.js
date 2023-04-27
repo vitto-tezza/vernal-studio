@@ -2,10 +2,10 @@ import React, { useState } from "react";
 /*css*/
 import "./NavBar.css";
 /*images*/
-import logoVernalWhite from "../../utils/images/logo-vernal-white.png";
+import logoVernalWhite from "../../utils/images/logo-vernal-white.svg";
 import logoVernalBlack from "../../utils/images/logo-vernal-black.png";
-import languageArrow from "../../utils/images/header-languagearrow.png";
-import languageArrowD from "../../utils/images/header-languagearrowd.png";
+import languageArrow from "../../utils/images/arrow.svg";
+import languageArrowD from "../../utils/images/arrow.svg";
 
 function NavBar() {
   const [menu, setMenu] = useState(false);
